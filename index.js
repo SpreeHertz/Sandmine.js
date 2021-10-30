@@ -15,6 +15,8 @@ const bot = mineflayer.createBot({
 });
 
 module.exports = bot;
+// Handlers
+// Function fodler
 const functionFiles = fs.readdirSync('./src/functions').filter(file => file.endsWith('.js'));
 for (const file of functionFiles) {
 	const functions = require(`./src/functions/${file}`);

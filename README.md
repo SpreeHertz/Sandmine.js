@@ -1,6 +1,8 @@
 # Sandmine.js
 
-**Sandmine.js** is a simple minecraft bot, with several cool functions, all made with JavaScript.
+**Sandmine.js** is a simple minecraft bot, with several cool functions, all made with JavaScript. 
+
+Contributions are always welcome! 
 
 # Table of contents
 
@@ -9,7 +11,7 @@
 <a href="#license"> • License</a> <br>
 <a href="#docs">• <b>Docs</b> </a> <br>
 <a href="#step-1-opening-lan-world"> • Open LAN World </a> <br>
-<a href="#config"> • Configuration </a> <br>
+<a href="#configuration"> • Configuration </a> <br>
 
 
 ### Features
@@ -54,7 +56,7 @@ If you're planning to make a local connection, you **must follow** this step.
 
 
 ## Step 2: Configuration
-<div id="#config">
+<div id="#configuration">
 
 x. Go to `.env.example`, and specify a port and host. (If you wanna host it locally, the value `localhost` is recommended.)
 x. Rename `.env.example` to `.env.`
