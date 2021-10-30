@@ -2,7 +2,14 @@
 
 TK is a simple minecraft bot, with several cool functions, all made with JavaScript.
 
+# Table of contents
+
+<a href="#features">Features </a>
+
+
 ### Features
+
+<div id="features">
 
 **Note:** This minecraft bot is still under development, so some things may not be stable.
 
@@ -11,6 +18,7 @@ For now, it can:
 1. Look at nearest player 
 2. Pathfind
 3. Welcome
+</div>
 
 ### Credits
 
