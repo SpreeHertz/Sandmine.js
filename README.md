@@ -4,6 +4,8 @@
 
 Contributions are always welcome! You can open a pull request by [clicking here](https://github.com/spreehertz/sandmine.js/pulls). <br>
 
+More features are coming very soon 😉!
+
 # Table of contents
 
 * [Features](#features)
@@ -21,8 +23,9 @@ Contributions are always welcome! You can open a pull request by [clicking here]
 For now, it can:
 
 1. Look at nearest player 
-2. Pathfind
+2. Pathfind a player
 3. Welcome
+4. Kill mobs
 
 ## Credits
 This bot is made possible with [mineflayer](https://github.com/prismarinejs/mineflayer) and its other packages.
@@ -33,6 +36,8 @@ This project is licensed under the **GPL General Public License v3.0.** See the 
 
 # Docs
 You can make your own version of Sandmine.js. Please read the docs fully so that you understand what's happening, and to reduce the amount of errors you may run into.
+
+Also, it would be appreciated if you credit me.
 
 ## Step 1: Installation
 Install [VSCode](https://code.visualstudio.com/download) (or any other IDE you like), [Git](https://git-scm.com/download/), and [Node.js](https://nodejs.org)

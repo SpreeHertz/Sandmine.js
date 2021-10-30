@@ -1,5 +1,4 @@
 const mineflayer = require('mineflayer');
-const { pathfinder } = require('mineflayer-pathfinder');
 require('dotenv').config();
 const chalk = require('chalk');
 const fs = require('fs');
@@ -34,5 +33,3 @@ for (const file of eFiles) {
 	const event = require(`./src/events/${file}`);
 	console.log(chalk.magentaBright(`Event ${eventName}.js`) + chalk.blue(` has been loaded.`));
 }
-
-bot.loadPlugin(pathfinder);
