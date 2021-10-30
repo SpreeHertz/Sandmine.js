@@ -7,13 +7,10 @@ Found an issue? Report it by [clicking here](https://github.com/spreehertz/sandm
 
 # Table of contents
 
-<a href="#features">• Features</a> <br>
-<a href="#credits"> • Credits</a> <br>
-<a href="#license"> • License</a> <br>
-<a href="#docs">• <b>Docs</b> </a> <br>
-[• Installation](#step-1-installation)
-<a href="#step-1-opening-lan-world"> • Open LAN World </a> <br>
-<a href="#configuration"> • Configuration </a> <br>
+* [Features](#features) <br>
+* [Credits](#credits) <br>
+* [License](#license) <br>
+**
 
 
 ## Features
