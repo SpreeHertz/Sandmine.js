@@ -52,7 +52,9 @@ If you're planning to make a local connection, you **must follow** this step.
 
 1. Open Minecraft and open your Single player world.
 
-2. 
+2. Go to your Game Menu and Click on `Open LAN World`. <br>
+  ![image](https://user-images.githubusercontent.com/48062454/139525364-e271a2e6-830d-4dba-9153-6d8a62ee92c1.png)
+
 
 
 ## Step 2: Configuration
