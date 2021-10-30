@@ -8,7 +8,7 @@ TK is a simple minecraft bot, with several cool functions, all made with JavaScr
 <a href="#credits"> • Credits</a> <br>
 <a href="#license"> • License</a> <br> <br>
 
-<a href="#docs">• <b>Docs<b> </a> <br>
+<a href="#docs">• <b>Docs</b> </a> <br>
 <a href="#credentials"> • Credentials </a> <br>
 <a href="#open-lan"> • Open LAN World </a> <br>
 <a href="#config"> • Configuration </a> <br>
