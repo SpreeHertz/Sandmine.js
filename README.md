@@ -11,6 +11,9 @@ Found an issue? Report it by [clicking here](https://github.com/spreehertz/sandm
 * [Credits](#credits) 
 * [License](#license) 
 * **[Docs](#docs)**
+* [Step 1: Installation](#step-1-installation)
+* [Step 2: Opening LAN World](#step-2-opening-lan-world)
+* [Step 3: Configuration](#step-3-configuration)
 
 
 ## Features
@@ -34,9 +37,6 @@ You can make your own version of Sandmine.js. Please follow all the steps requir
 
 ## Step 1: Installation
 Install [VSCode](https://code.visualstudio.com/download) (or any other IDE you like), [Git](https://git-scm.com/download/), and [Node.js](https://nodejs.org)
-
-
-
 
 ## Step 2: Opening LAN World
 
