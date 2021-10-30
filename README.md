@@ -4,7 +4,14 @@ TK is a simple minecraft bot, with several cool functions, all made with JavaScr
 
 # Table of contents
 
-<a href="#features">Features </a>
+<a href="#features">• Features</a> <br>
+<a href="#credits"> • Credits</a> <br>
+<a href="#license"> • License</a> <br> <br>
+
+<a href="#docs">• <b>Docs<b> </a> <br>
+<a href="#credentials"> • Credentials </a> <br>
+<a href="#open-lan"> • Open LAN World </a> <br>
+<a href="#config"> • Configuration </a> <br>
 
 
 ### Features
@@ -21,23 +28,26 @@ For now, it can:
 </div>
 
 ### Credits
+<div id="credits">
 
 This bot is made possible with [mineflayer](https://github.com/prismarinejs/mineflayer) and its other packages.
 
-### License
+</div>
 
+### License
+<div id="#license">
 This project is licensed under the **GPL General Public License v3.0.** See the LICENSE file for details.
 
+</div>
 
 # Docs
-
+<div id="#docs">
 You can make your own version of TK. 
+</div>
 
-## Step 1: Credentials
+## Step 1: Opening LAN World
+<div id="#open-lan">
 
-1. Go to [`config.json`](https://github.com/spreehertz/tk/blob/master/config.json) and give your bot a username.
-
-## Opening a LAN World (Local PC)
 If you're planning to make a local connection, you **must follow** this step.
 
 1. Open Minecraft and open your Single player world.
@@ -45,10 +55,11 @@ If you're planning to make a local connection, you **must follow** this step.
 2. 
 
 
+## Step 2: Configuration
+<div id="#config">
+
 x. Go to `.env.example`, and specify a port and host. (If you wanna host it locally, the value `localhost` is recommended.)
 x. Rename `.env.example` to `.env.`
-
-## Step 2: Configuration
 
 Go to `config.json`. There are some values you'll see. Here's what they do:
 
