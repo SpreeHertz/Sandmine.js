@@ -59,6 +59,11 @@ If you're planning to make a local connection, you **must follow** this step.
 
   
 ## Step 3: Configuration
+Open Visual Studio Code, open a folder, and do:
+
+```cmd
+git clone https://github.com/SpreeHertz/Sandmine.js.git
+```
 
 1. Go to `.env.example`, and specify the port that I told you to note in the previous subtopic.
 2. For `host=`, Giving it localhost is recommended.
@@ -69,3 +74,18 @@ Go to `config.json`. There are some values you'll see. Here's what they do:
 `welcomeMessage` - This is the message that will pop up in the Minecraft chat as soon as it spawns in the server.
 
 `playerToLook` - This is the player that the bot should look at. Default is `SpreeHertz`, **please change it to your Minecraft in game name.**
+
+### Step 4: Start the bot 
+
+In order to start the bot, open a New Terminal by clicking on `Terminal` (top) > New Terminal. 
+
+In the terminal, type in:
+
+```cmd
+node .
+```
+
+For testing purposes, you can do:
+```cmd
+npm run test
+```
