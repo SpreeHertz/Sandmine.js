@@ -2,7 +2,8 @@
 
 **Sandmine.js** is a simple minecraft bot, with several cool functions, all made with JavaScript. 
 
-Contributions are always welcome! 
+Contributions are always welcome! You can open a pull request by [clicking here](https://github.com/spreehertz/sandmine.js/pulls). <br>
+Found an issue? Report it by [clicking here](https://github.com/spreehertz/sandmine.js/issues).
 
 # Table of contents
 
@@ -60,14 +61,22 @@ If you're planning to make a local connection, you **must follow** this step.
 
 1. Open Minecraft and open your Single player world.
 
-2. 
+2. Go to your Game Menu and Click on `Open to LAN`. <br>
+![image](https://user-images.githubusercontent.com/48062454/139525364-e271a2e6-830d-4dba-9153-6d8a62ee92c1.png)
 
+3. After that, click on `Start LAN World`. <br>
+![image](https://user-images.githubusercontent.com/48062454/139525379-a046e04e-0ec5-4b67-9003-9091f306ae78.png)
 
-## Step 3: Configuration
+4. You'll now see a new message pop up on your Minecraft chat specifying the port. **Please note it, and make sure that you do NOT copy mine since it's different for everyone.**
+![image](https://user-images.githubusercontent.com/48062454/139525397-51c01aca-d1c1-4bc0-9509-4c76e99b0ae9.png)
+
+  
+## Step 2: Configuration
 <div id="#configuration">
 
-x. Go to `.env.example`, and specify a port and host. (If you wanna host it locally, the value `localhost` is recommended.)
-x. Rename `.env.example` to `.env.`
+1. Go to `.env.example`, and specify the port that I told you to note in the previous subtopic.
+2. For `host=`, Giving it localhost is recommended.
+2. Finally, rename `.env.example` to `.env.`
 
 Go to `config.json`. There are some values you'll see. Here's what they do:
 
