@@ -17,7 +17,6 @@ Found an issue? Report it by [clicking here](https://github.com/spreehertz/sandm
 
 ### Features
 
-<div id="features">
 
 **Note:** This minecraft bot is still under development, so some things may not be stable.
 
@@ -36,13 +35,14 @@ This bot is made possible with [mineflayer](https://github.com/prismarinejs/mine
 </div>
 
 ### License
-<div id="#license">
+<div id="license">
+
 This project is licensed under the **GPL General Public License v3.0.** See the LICENSE file for details.
 
 </div>
 
 # Docs
-<div id="#docs">
+<div id="docs">
 You can make your own version of Sandmine.js. Please follow all the steps required for you to have a good experience.
 </div>
 
@@ -55,7 +55,7 @@ Install [VSCode](https://code.visualstudio.com/download) (or any other IDE you l
 
 
 ## Step 2: Opening LAN World
-<div id="#step-2-opening-lan-world">
+<div id="step-2-opening-lan-world">
 
 If you're planning to make a local connection, you **must follow** this step.
 
@@ -71,8 +71,8 @@ If you're planning to make a local connection, you **must follow** this step.
 ![image](https://user-images.githubusercontent.com/48062454/139525397-51c01aca-d1c1-4bc0-9509-4c76e99b0ae9.png)
 
   
-## Step 2: Configuration
-<div id="#configuration">
+## Step 3: Configuration
+<div id="step-3-configuration">
 
 1. Go to `.env.example`, and specify the port that I told you to note in the previous subtopic.
 2. For `host=`, Giving it localhost is recommended.
