@@ -1,6 +1,6 @@
-# TK
+# Sandmine.js
 
-TK is a simple minecraft bot, with several cool functions, all made with JavaScript.
+**Sandmine.js** is a simple minecraft bot, with several cool functions, all made with JavaScript.
 
 # Table of contents
 
@@ -40,7 +40,7 @@ This project is licensed under the **GPL General Public License v3.0.** See the 
 
 # Docs
 <div id="#docs">
-You can make your own version of TK. Please follow all the steps required for you to have a good experience.
+You can make your own version of Sandmine.js. Please follow all the steps required for you to have a good experience.
 </div>
 
 ## Step 1: Opening LAN World
