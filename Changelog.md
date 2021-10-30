@@ -13,3 +13,5 @@
 3. Added nodemon as script.
 4. Added `npm run lint` script.
 5. Fixed command handler bug.
+6. Added command handler for events folder.
+7. Added chalk terminal styling.

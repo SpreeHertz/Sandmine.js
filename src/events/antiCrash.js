@@ -1,19 +1,19 @@
 const chalk = require('chalk');
 
 // no port
-if (process.env.port) {
+if (!process.env.port) {
 	console.log(chalk.yellowBright('warn') +
     chalk.red(` You have not specified your port properly. Your bot will have issues while connecting to your server.`));
 }
 
 // no host
-if (process.env.host) {
+if (!process.env.host) {
 	console.log(chalk.yellowBright('warn') +
-    chalk.red(' You have not specified the host properly.\nIf you\'re using a local server, it\'s recommdned that you use localhost.'));
+    chalk.red(' You have not specified the host properly. If you\'re using a local server, it\'s recommended that you use localhost.'));
 }
 
 // no username
-if (process.env.bot_username) {
+if (!process.env.bot_username) {
 	console.log(chalk.yellowBright('warn') +
     chalk.red(' You have not specified your bot username. Please specify it and run this project again.'));
 }

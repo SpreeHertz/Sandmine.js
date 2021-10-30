@@ -3,7 +3,6 @@
 **Sandmine.js** is a simple minecraft bot, with several cool functions, all made with JavaScript. 
 
 Contributions are always welcome! You can open a pull request by [clicking here](https://github.com/spreehertz/sandmine.js/pulls). <br>
-Found an issue? Report it by [clicking here](https://github.com/spreehertz/sandmine.js/issues).
 
 # Table of contents
 
@@ -33,7 +32,7 @@ This bot is made possible with [mineflayer](https://github.com/prismarinejs/mine
 This project is licensed under the **GPL General Public License v3.0.** See the LICENSE file for details.
 
 # Docs
-You can make your own version of Sandmine.js. Please follow all the steps required for you to have a good experience.
+You can make your own version of Sandmine.js. Please read the docs fully so that you understand what's happening, and to reduce the amount of errors you may run into.
 
 ## Step 1: Installation
 Install [VSCode](https://code.visualstudio.com/download) (or any other IDE you like), [Git](https://git-scm.com/download/), and [Node.js](https://nodejs.org)

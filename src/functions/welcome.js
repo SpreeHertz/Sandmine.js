@@ -1,14 +1,9 @@
-// Delete this file if you don't want to welcome.
+// Delete this file if you don't want your bot to welcome.
 
-const { welcome } = require('../../config.json').welcomeMessage.toString();
+const { welcome } = require('../../config.json').welcomeMessage;
 const bot = require('../../index');
 
-bot.on('spawn', () => {
-	// Welcome
-	const botWelcome = () => {
-		bot.chat(`${welcome}`);
-	};
-
-	botWelcome();
-
+bot.once('spawn', () => {
+	bot.chat(`${welcome} | Made by SpreeHertz`);
 });
+
