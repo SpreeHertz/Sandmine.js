@@ -12,3 +12,4 @@
 2. Added LICENSE.
 3. Added nodemon as script.
 4. Added `npm run lint` script.
+5. Fixed command handler bug.

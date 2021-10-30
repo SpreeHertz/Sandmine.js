@@ -45,8 +45,16 @@ This project is licensed under the **GPL General Public License v3.0.** See the 
 You can make your own version of Sandmine.js. Please follow all the steps required for you to have a good experience.
 </div>
 
-## Step 1: Opening LAN World
-<div id="#step-1-opening-lan-world">
+## Step 1: Installation
+<div id="step-1-installation">
+
+Install [VSCode](https://code.visualstudio.com/download) (or any other IDE you like), [Git](https://git-scm.com/download/), and [Node.js](https://nodejs.org)
+
+</div>
+
+
+## Step 2: Opening LAN World
+<div id="#step-2-opening-lan-world">
 
 If you're planning to make a local connection, you **must follow** this step.
 
@@ -55,7 +63,7 @@ If you're planning to make a local connection, you **must follow** this step.
 2. 
 
 
-## Step 2: Configuration
+## Step 3: Configuration
 <div id="#configuration">
 
 x. Go to `.env.example`, and specify a port and host. (If you wanna host it locally, the value `localhost` is recommended.)

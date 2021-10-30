@@ -16,12 +16,19 @@ const bot = mineflayer.createBot({
 
 module.exports = bot;
 // Handlers
-// Function fodler
-const functionFiles = fs.readdirSync('./src/functions').filter(file => file.endsWith('.js'));
-for (const file of functionFiles) {
-	const functions = require(`./src/functions/${file}`);
-	functionFiles.forEach(() => console.log(chalk.cyanBright(`${functions} has been loaded.`)));
+// Function folder
+const files = fs.readdirSync("./src/functions").filter(file => file.endsWith(".js"));
 
+for (const file of files) {
+	const eventName = file.split(".")[0];
+	console.log(chalk.cyanBright(`${eventName}.js`) + chalk.greenBright(` has been loaded.`));
+}
+
+// Events
+const eFiles = fs.readdirSync("./src/events").filter(file => file.endsWith(".js"));
+for (const file of eFiles) {
+	const eventName = file.split(".")[0];
+	console.log(chalk.magentaBright(`${eventName}.js`) + chalk.blue(` event handler has been loaded.`));
 }
 
 bot.loadPlugin(pathfinder);
