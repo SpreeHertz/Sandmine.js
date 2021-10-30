@@ -7,10 +7,10 @@ Found an issue? Report it by [clicking here](https://github.com/spreehertz/sandm
 
 # Table of contents
 
-* [Features](#features) <br>
-* [Credits](#credits) <br>
-* [License](#license) <br>
-**
+* [Features](#features)
+* [Credits](#credits) 
+* [License](#license) 
+* **[Docs](#docs)**
 
 
 ## Features
