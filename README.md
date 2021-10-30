@@ -6,11 +6,9 @@ TK is a simple minecraft bot, with several cool functions, all made with JavaScr
 
 <a href="#features">• Features</a> <br>
 <a href="#credits"> • Credits</a> <br>
-<a href="#license"> • License</a> <br> <br>
-
+<a href="#license"> • License</a> <br>
 <a href="#docs">• <b>Docs</b> </a> <br>
-<a href="#credentials"> • Credentials </a> <br>
-<a href="#open-lan"> • Open LAN World </a> <br>
+<a href="#step-1-opening-lan-world"> • Open LAN World </a> <br>
 <a href="#config"> • Configuration </a> <br>
 
 
@@ -42,11 +40,11 @@ This project is licensed under the **GPL General Public License v3.0.** See the 
 
 # Docs
 <div id="#docs">
-You can make your own version of TK. 
+You can make your own version of TK. Please follow all the steps required for you to have a good experience.
 </div>
 
 ## Step 1: Opening LAN World
-<div id="#open-lan">
+<div id="#step-1-opening-lan-world">
 
 If you're planning to make a local connection, you **must follow** this step.
 
