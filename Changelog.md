@@ -23,3 +23,4 @@
 3. Fixed `killMob.js` issue.
 4. Added the functionality to PvP!
 5. Added a message while sleeping.
+6. Removed `sleep.js` due to issues.

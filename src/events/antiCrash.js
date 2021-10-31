@@ -41,5 +41,5 @@ module.exports = () => {
 };
 
 bot.on('error', (err, origin) => {
-	console.log(chalk.redBright(`error`) + chalk.red(` ${process.env.bot_username} encountered an error. Error: ${err || 'Unknown'} | Origin: ${origin || 'Unknown'}`));
+	console.log(chalk.redBright(`error`) + chalk.red(` ${process.env.bot_username} encountered an error. ${err || 'Unknown'}, Origin: ${origin || 'Unknown'}`));
 });

@@ -17,15 +17,14 @@ More features are coming very soon 😉!
 * [Step 3: Configuration](#step-3-configuration)
 
 
-## Features
-**Note:** This minecraft bot is still under development, so some things may not be stable.
+## Usage/Features
 
-For now, it can:
-
-1. Look at nearest player 
-2. Pathfind a player
-3. Welcome
-4. Kill mobs
+* Auto-eats if you give it appropriate food.
+* Consumes stuff.
+* Kills a mob when in a particular radius.
+* Looks at nearest player.
+* Pathfinds the player and gets as close as possible if a player says
+* PvP you if you say "`fight me`" and stops if you say "`stop`".
 
 ## Credits
 This bot is made possible with [mineflayer](https://github.com/prismarinejs/mineflayer) and its other packages.

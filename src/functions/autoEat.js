@@ -19,6 +19,7 @@ bot.on('autoeat_started', () => {
 
 bot.on('autoeat_stopped', () => {
 	console.log(chalk.green('Stopped auto-eating.'));
+	bot.chat("I'm done eating.");
 });
 
 bot.on('health', () => {
