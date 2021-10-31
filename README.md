@@ -23,7 +23,7 @@ More features are coming very soon 😉!
 * Consumes stuff.
 * Kills a mob when in a particular radius.
 * Looks at nearest player.
-* Pathfinds the player and gets as close as possible if a player says
+* Pathfinds the player and gets as close as possible if a player says "`follow me`" and stops if you say "`stop`".
 * PvP you if you say "`fight me`" and stops if you say "`stop`".
 
 ## Credits
