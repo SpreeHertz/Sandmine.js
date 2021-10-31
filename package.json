@@ -14,7 +14,9 @@
     "dotenv": "^10.0.0",
     "minecraft-data": "^2.95.0",
     "mineflayer": "^3.11.2",
+    "mineflayer-auto-eat": "^2.3.3",
     "mineflayer-pathfinder": "^1.8.0",
+    "mineflayer-pvp": "^1.0.2",
     "prismarine-entity": "^1.2.0"
   },
   "devDependencies": {

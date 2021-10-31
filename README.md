@@ -65,6 +65,12 @@ Open Visual Studio Code, open a folder, and do:
 git clone https://github.com/SpreeHertz/Sandmine.js.git
 ```
 
+then do:
+```cmd
+cd Sandmine.js-master
+```
+
+
 1. Go to `.env.example`, and specify the port that I told you to note in the previous subtopic.
 2. For `host=`, Giving it localhost is recommended.
 2. Finally, rename `.env.example` to `.env.`

@@ -15,3 +15,11 @@
 5. Fixed command handler bug.
 6. Added command handler for events folder.
 7. Added chalk terminal styling.
+
+### October 31st 2021 (v1.0.2)
+
+1. Added auto-eat functionality.
+2. Added better warning systems.
+3. Fixed `killMob.js` issue.
+4. Added the functionality to PvP!
+5. Added a message while sleeping.

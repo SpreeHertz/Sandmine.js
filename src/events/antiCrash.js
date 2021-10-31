@@ -1,4 +1,5 @@
 const chalk = require('chalk');
+const bot = require('../../index');
 
 // no port
 if (!process.env.port) {
@@ -38,3 +39,7 @@ module.exports = () => {
 		console.log(type, promise, reason);
 	});
 };
+
+bot.on('error', (err, origin) => {
+	console.log(chalk.redBright(`error`) + chalk.red(` ${process.env.bot_username} encountered an error. Error: ${err || 'Unknown'} | Origin: ${origin || 'Unknown'}`));
+});
