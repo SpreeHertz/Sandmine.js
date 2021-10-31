@@ -101,6 +101,11 @@ For testing purposes, you can do:
 npm run test
 ```
 
+To check if there are any code formatting / code styling issues, you can do:
+```cmd
+npm run lint
+```
+
 And there you go! **Your bot should be working properly by now.**
 
 ## Errors and how to fix them
