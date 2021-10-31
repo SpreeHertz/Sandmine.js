@@ -70,8 +70,8 @@ cd Sandmine.js-master
 ```
 
 
-1. Go to `.env.example`, and specify the port that I told you to note in the previous subtopic.
-2. For `host=`, Giving it localhost is recommended.
+1. Go to `.env.example`, and specify the port that I told you to note in the previous subtopic. (**Please note that the port always changes when hosting locally everytime you start up your LAN server.**)
+2. For `host=`, Give it `localhost` if you're hosting locally.
 2. Finally, rename `.env.example` to `.env.`
 
 Go to `config.json`. There are some values you'll see. Here's what they do:
