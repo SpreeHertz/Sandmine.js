@@ -76,9 +76,9 @@ cd Sandmine.js-master
 
 Go to `config.json`. There are some values you'll see. Here's what they do:
 
-`welcomeMessage` - This is the message that will pop up in the Minecraft chat as soon as it spawns in the server.
-
 `playerToLook` - This is the player that the bot should look at. Default is `SpreeHertz`, **please change it to your Minecraft in game name.**
+
+`mobToKill` - When the bot sees this particular mob, it will start killing it. If you don't want this feature, you can leave this value empty.
 
 ### Step 4: Start the bot 
 
@@ -87,6 +87,12 @@ In order to start the bot, open a New Terminal by clicking on `Terminal` (top) >
 In the terminal, type in:
 
 ```cmd
+npm install
+```
+
+Then do this to start your bot:
+ 
+```cmd
 node .
 ```
 
@@ -94,3 +100,28 @@ For testing purposes, you can do:
 ```cmd
 npm run test
 ```
+
+And there you go! **Your bot should be working properly by now.**
+
+## Errors and how to fix them
+
+### Connection Refused (`ECONNREFUSED`)
+
+If you see a `connect ECONNREFUSED` error, it means that the IP address and/or port that you specified in your `.env` file might be wrong.
+
+When doing `npm run test`, you might see this:
+```cmd
+[nodemon] clean exit - waiting for changes before restart
+```
+This occurs when the bot crashes immediately (most probably because of the ECONNREFUSED error).
+
+### Module not found
+
+ * Make sure that you have done `npm i` or `npm install`. 
+ * Make sure you have [Node.js](https://nodejs.org) installed. It should be v14 or higher.
+ * Make sure you have `cd foldername`. You want your terminal to go inside the folder where you've cloned Sandmine.js.
+ * Make sure you haven't deleted any main files like `index.js` or `src/events`. If you don't really have much knowledge of JavaScript, it's recommended that you just delete files from `src/functions` folder to turn off particular functions, unless **you know what you're doing.**
+
+### Other Errors
+
+Are you seeing an error that is not mentioned in this Readme? Well, you should report it by clicking [here](https://github.com/sandmine.js/issues/new). I'd be more than happy to help, and there might be others that are down to help you as well.
