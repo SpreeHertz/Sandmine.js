@@ -8,7 +8,7 @@ More features are coming very soon 😉!
 
 # Table of contents
 
-* [Features](#features)
+* [Usage/Features](#usagefeatures)
 * [Credits](#credits) 
 * [License](#license) 
 * **[Docs](#docs)**
