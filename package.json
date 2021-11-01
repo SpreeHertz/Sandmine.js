@@ -1,7 +1,7 @@
 {
   "name": "inside-minecraft-bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple minecraft bot with several functions like pathfinding, PvPing, and more, completely built with JavaScript.",
   "main": "index.js",
   "scripts": {
     "test": "nodemon .",
