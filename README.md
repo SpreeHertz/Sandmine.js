@@ -11,10 +11,12 @@ More features are coming very soon 😉!
 * [Usage/Features](#usagefeatures)
 * [Credits](#credits) 
 * [License](#license) 
+* [Changelogs](#changelogs)
 * **[Docs](#docs)**
 * [Step 1: Installation](#step-1-installation)
 * [Step 2: Opening LAN World](#step-2-opening-lan-world)
 * [Step 3: Configuration](#step-3-configuration)
+* [Step 4: Start the bot](#step-4-start-the-bot)
 
 
 ## Usage/Features
@@ -32,6 +34,11 @@ This bot is made possible with [mineflayer](https://github.com/prismarinejs/mine
 
 ## License
 This project is licensed under the **GPL General Public License v3.0.** See the LICENSE file for details.
+
+## Changelogs
+
+View [Changelog.md](https://github.com/SpreeHertz/Sandmine.js/blob/master/Changelog.md).
+
 
 # Docs
 You can make your own version of Sandmine.js. Please read the docs fully so that you understand what's happening, and to reduce the amount of errors you may run into.
@@ -84,24 +91,24 @@ Go to `config.json`. There are some values you'll see. Here's what they do:
 
 In order to start the bot, open a New Terminal by clicking on `Terminal` (top) > New Terminal. 
 
-In the terminal, type in:
+(**Required**) Install the dependencies by doing:
 
 ```cmd
 npm install
 ```
 
-Then do this to start your bot:
+(**Required**) Then do this to start your bot:
  
 ```cmd
 node .
 ```
 
-For testing purposes, you can do:
+(Optional/Preference) For testing purposes, you can do:
 ```cmd
 npm run test
 ```
 
-To check if there are any code formatting / code styling issues, you can do:
+(Optional)To check if there are any code formatting / code styling issues, you can do:
 ```cmd
 npm run lint
 ```

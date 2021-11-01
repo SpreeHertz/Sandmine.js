@@ -1,5 +1,11 @@
 # Changelogs | Sandmine.js
 
+### November 1st 2021 (v1.0.3)
+
+1. Added GitHub pages. View it by clicking [here](https://spreehertz.github.io/Sandmine.js).
+2. Added more information to README.
+3. Fixed grammatical errors.
+
 ### October 31st 2021 (v1.0.2)
 
 1. Added auto-eat functionality.
