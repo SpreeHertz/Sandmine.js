@@ -27,6 +27,7 @@ More features are coming very soon 😉!
 * Looks at nearest player.
 * Pathfinds the player and gets as close as possible if a player says "`follow me`" and stops if you say "`stop`".
 * PvP you if you say "`fight me`" and stops if you say "`stop`".
+* Bow fights you.
 
 ## Credits
 This bot is made possible with [mineflayer](https://github.com/prismarinejs/mineflayer) and its other packages.
