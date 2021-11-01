@@ -5,6 +5,8 @@
 1. Added GitHub pages. View it by clicking [here](https://spreehertz.github.io/Sandmine.js).
 2. Added more information to README.
 3. Fixed grammatical errors.
+4. Added the functionality to PvP with a bow. Trigger messages: `bow fight`, `bow fight me`, `fight me with a bow` (and `stop` to stop).
+5. Fixed pathfinding error.
 
 ### October 31st 2021 (v1.0.2)
 
