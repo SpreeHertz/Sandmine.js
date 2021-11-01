@@ -25,7 +25,8 @@ bot.on('spawn', () => {
 
 			const goal = new GoalFollow(target, 1);
 			bot.pathfinder.setGoal(goal, true);
+
 		}
-		if (message === 'stop following me' || message === 'stop following' || message === 'stop') return bot.chat('Alright.');
+		if (message === 'stop following me' || message === 'stop following') return bot.chat('Alright.');
 	});
 });

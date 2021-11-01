@@ -18,7 +18,7 @@ bot.on('spawn', () => {
 
 			bot.hawkEye.autoAttack(player, weapon);
 		}
-		if (message === 'stop' || message === 'stop fighting me') {
+		if (message === 'stop fighting me') {
 			bot.hawkEye.stop();
 			bot.chat('Stopped bow fighting. GGs!');
 		}
