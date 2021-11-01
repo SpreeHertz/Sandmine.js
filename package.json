@@ -13,6 +13,7 @@
     "chalk": "^4.1.2",
     "dotenv": "^10.0.0",
     "minecraft-data": "^2.95.0",
+    "minecrafthawkeye": "^1.2.7",
     "mineflayer": "^3.11.2",
     "mineflayer-auto-eat": "^2.3.3",
     "mineflayer-pathfinder": "^1.8.0",
