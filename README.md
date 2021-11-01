@@ -91,24 +91,24 @@ Go to `config.json`. There are some values you'll see. Here's what they do:
 
 In order to start the bot, open a New Terminal by clicking on `Terminal` (top) > New Terminal. 
 
-In the terminal, type in:
+(**Required**) Install the dependencies by doing:
 
 ```cmd
 npm install
 ```
 
-Then do this to start your bot:
+(**Required**) Then do this to start your bot:
  
 ```cmd
 node .
 ```
 
-For testing purposes, you can do:
+(Optional/Preference) For testing purposes, you can do:
 ```cmd
 npm run test
 ```
 
-To check if there are any code formatting / code styling issues, you can do:
+(Optional)To check if there are any code formatting / code styling issues, you can do:
 ```cmd
 npm run lint
 ```
