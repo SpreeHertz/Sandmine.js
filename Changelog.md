@@ -8,6 +8,7 @@
 4. Added the functionality to PvP with a bow. Trigger messages: `bow fight`, `bow fight me`, `fight me with a bow` (and `stop` to stop).
 5. Fixed pathfinding error.
 6. Fixed chat error.
+7. Removed unnecessary file. 
 
 ### October 31st 2021 (v1.0.2)
 
