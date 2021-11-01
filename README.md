@@ -11,10 +11,12 @@ More features are coming very soon 😉!
 * [Usage/Features](#usagefeatures)
 * [Credits](#credits) 
 * [License](#license) 
+* [Changelogs](#changelogs)
 * **[Docs](#docs)**
 * [Step 1: Installation](#step-1-installation)
 * [Step 2: Opening LAN World](#step-2-opening-lan-world)
 * [Step 3: Configuration](#step-3-configuration)
+* [Step 4: Start the bot](#step-4-start-the-bot)
 
 
 ## Usage/Features
@@ -32,6 +34,11 @@ This bot is made possible with [mineflayer](https://github.com/prismarinejs/mine
 
 ## License
 This project is licensed under the **GPL General Public License v3.0.** See the LICENSE file for details.
+
+## Changelogs
+
+View [Changelog.md](https://github.com/SpreeHertz/Sandmine.js/blob/master/Changelog.md).
+
 
 # Docs
 You can make your own version of Sandmine.js. Please read the docs fully so that you understand what's happening, and to reduce the amount of errors you may run into.
