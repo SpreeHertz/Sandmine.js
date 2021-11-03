@@ -1,5 +1,9 @@
 # Changelogs | Sandmine.js
 
+### November 3rd 2021 (v1.0.4)
+
+1. Fixed headings on README.md.
+
 ### November 1st 2021 (v1.0.3)
 
 1. Added GitHub pages. View it by clicking [here](https://spreehertz.github.io/Sandmine.js).
