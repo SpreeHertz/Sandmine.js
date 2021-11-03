@@ -88,7 +88,7 @@ Go to `config.json`. There are some values you'll see. Here's what they do:
 
 `mobToKill` - When the bot sees this particular mob, it will start killing it. If you don't want this feature, you can leave this value empty.
 
-### Step 4: Start the bot 
+## Step 4: Start the bot 
 
 In order to start the bot, open a New Terminal by clicking on `Terminal` (top) > New Terminal. 
 
@@ -116,7 +116,7 @@ npm run lint
 
 And there you go! **Your bot should be working properly by now.**
 
-## Errors and how to fix them
+# Errors and how to fix them
 
 ### Connection Refused (`ECONNREFUSED`)
 
