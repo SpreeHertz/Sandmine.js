@@ -27,6 +27,7 @@ More features are coming very soon 😉!
 * Looks at nearest player.
 * Pathfinds the player and gets as close as possible if a player says "`follow me`" and stops if you say "`stop`".
 * PvP you if you say "`fight me`" and stops if you say "`stop`".
+* Bow fights you.
 
 ## Credits
 This bot is made possible with [mineflayer](https://github.com/prismarinejs/mineflayer) and its other packages.
@@ -87,7 +88,7 @@ Go to `config.json`. There are some values you'll see. Here's what they do:
 
 `mobToKill` - When the bot sees this particular mob, it will start killing it. If you don't want this feature, you can leave this value empty.
 
-### Step 4: Start the bot 
+## Step 4: Start the bot 
 
 In order to start the bot, open a New Terminal by clicking on `Terminal` (top) > New Terminal. 
 
@@ -115,7 +116,7 @@ npm run lint
 
 And there you go! **Your bot should be working properly by now.**
 
-## Errors and how to fix them
+# Errors and how to fix them
 
 ### Connection Refused (`ECONNREFUSED`)
 
