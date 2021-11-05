@@ -2,6 +2,7 @@ const chalk = require('chalk');
 const bot = require('../../index');
 
 // no port
+
 if (!process.env.port) {
 	console.log(chalk.yellowBright('warn') +
     chalk.red(` You have not specified your port properly. Your bot will have issues while connecting to your server.`));
@@ -17,6 +18,16 @@ if (!process.env.host) {
 if (!process.env.bot_username) {
 	console.log(chalk.yellowBright('warn') +
     chalk.red(' You have not specified your bot username. Please specify it and run this project again.'));
+}
+
+// if nothing
+if (!process.env.bot_username && !process.env.host && !process.env.port) {
+	console.log(chalk.yellowBright('warn') + chalk.red('You have not specified anything. Please read the docs by going to this URL: https://github.com/spreehertz/sandmine.js'));
+}
+
+// isNaN
+if (process.env.port === isNaN) {
+	console.log(chalk.yellowBright('warn') + chalk.red('It looks like the port you specified is not a number. Make sure you\'ve specified everything correctly.'));
 }
 
 // anti crash
