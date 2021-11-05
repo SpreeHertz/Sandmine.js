@@ -136,6 +136,11 @@ This occurs when the bot crashes immediately (most probably because of the ECONN
  * Make sure you have `cd foldername`. You want your terminal to go inside the folder where you've cloned Sandmine.js.
  * Make sure you haven't deleted any main files like `index.js` or `src/events`. If you don't really have much knowledge of JavaScript, it's recommended that you just delete files from `src/functions` folder to turn off particular functions, unless **you know what you're doing.**
 
+### localhost refused to connect
+![image](https://user-images.githubusercontent.com/48062454/140536810-e2bf992f-c79a-4498-8f45-6fe474e6389e.png)
+
+In order to make localhost connect, you need to make sure that you have either done `node .` or `npm run test`.
+
 ### Other Errors
 
 Are you seeing an error that is not mentioned in this Readme? Well, you should report it by clicking [here](https://github.com/sandmine.js/issues/new). I'd be more than happy to help, and there might be others that are down to help you as well.
