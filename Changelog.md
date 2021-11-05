@@ -1,5 +1,11 @@
 # Changelogs | Sandmine.js
 
+### November 5th 2021 (v1.0.4)
+
+1. Added better error handling.
+2. Added the `mineflayer-viewer` package. You can see what your bot is doing by going to https://localhost:3000.
+3. Added yarn.
+
 ### November 1st 2021 (v1.0.3)
 
 1. Added GitHub pages. View it by clicking [here](https://spreehertz.github.io/Sandmine.js).
