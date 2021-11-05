@@ -5,6 +5,9 @@
 1. Added better error handling.
 2. Added the `mineflayer-viewer` package. You can see what your bot is doing by going to https://localhost:3000.
 3. Added yarn.
+### November 3rd 2021 (v1.0.4)
+
+1. Fixed headings on README.md.
 
 ### November 1st 2021 (v1.0.3)
 
