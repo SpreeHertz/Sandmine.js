@@ -48,7 +48,7 @@ You can make your own version of Sandmine.js. Please read the docs fully so that
 Also, it would be appreciated if you credit me.
 
 ## Step 1: Installation
-Install [VSCode](https://code.visualstudio.com/download) (or any other IDE you like), [Git](https://git-scm.com/download/), and [Node.js](https://nodejs.org)
+Install [VSCode](https://code.visualstudio.com/download) (or any other IDE you like), [Git](https://git-scm.com/download/), and [Node.js](https://nodejs.org).
 
 ## Step 2: Opening LAN World
 
@@ -110,7 +110,7 @@ node .
 npm run test
 ```
 
-(Optional)To check if there are any code formatting / code styling issues, you can do:
+(Optional) To check if there are any code formatting / code styling issues, you can do:
 ```cmd
 npm run lint
 ```
