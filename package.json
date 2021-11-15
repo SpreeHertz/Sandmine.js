@@ -19,7 +19,7 @@
     "mineflayer-pathfinder": "^1.8.0",
     "mineflayer-pvp": "^1.0.2",
     "prismarine-entity": "^1.2.0",
-    "prismarine-viewer": "^1.20.0"
+    "prismarine-viewer": "^1.21.0"
   },
   "devDependencies": {
     "eslint": "^8.2.0",

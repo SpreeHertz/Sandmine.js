@@ -1747,10 +1747,10 @@ prismarine-recipe@^1.1.0:
   resolved "https://registry.yarnpkg.com/prismarine-recipe/-/prismarine-recipe-1.1.0.tgz#ba83fea0d6f5ad3be83398a20f85f7e800665732"
   integrity sha512-eFmriEWoe6S6OSVbOJnsXpaBuzeIzjaGymDUTCtrOu80734NWKI7outdLI6R2ztJ+f2PFIkFmpkazAdScStGNA==
 
-prismarine-viewer@^1.20.0:
-  version "1.20.0"
-  resolved "https://registry.yarnpkg.com/prismarine-viewer/-/prismarine-viewer-1.20.0.tgz#e7f3e404b34cce66f258f70115be6a52662060dc"
-  integrity sha512-/d8N+cIbpiurUfqLUuhZqk958vQI0H/wib9CGQU9ZqH5MtPPsMm7Fjk+fLngA7HlIEfgN7dmDPkihOtvTl8yCQ==
+prismarine-viewer@^1.21.0:
+  version "1.21.0"
+  resolved "https://registry.yarnpkg.com/prismarine-viewer/-/prismarine-viewer-1.21.0.tgz#1c0d7eb22bb899752effcdfb3fdb38ca43c3ee41"
+  integrity sha512-XrEf1GzGTpj4KfMYsqKpUyK27fkW+qjHmBt7XDFHiObsLlpZ6hBL2fjMXunGgpgvBLfKCCfNlz62l6cZep/q9A==
   dependencies:
     "@tweenjs/tween.js" "^18.6.4"
     compression "^1.7.4"
@@ -1761,7 +1761,7 @@ prismarine-viewer@^1.20.0:
     prismarine-world "^3.3.1"
     socket.io "^4.0.0"
     socket.io-client "^4.0.0"
-    three "^0.128.0"
+    three "0.128.0"
     three.meshline "^1.3.0"
     vec3 "^0.1.7"
 
@@ -2157,7 +2157,7 @@ three.meshline@^1.3.0:
   resolved "https://registry.yarnpkg.com/three.meshline/-/three.meshline-1.3.0.tgz#362d9bd3480907a4d8a2663587722a34e5a7cc92"
   integrity sha512-ZEb6cZiMh7RFPAQ0320aVBQx1CK4/wFffG9NNAArfX4KBPSJzjS19tYSuhNX7eZ1trU4blEHixz1EXkXN33++w==
 
-three@^0.128.0:
+three@0.128.0:
   version "0.128.0"
   resolved "https://registry.yarnpkg.com/three/-/three-0.128.0.tgz#884dacca6a330e45600a09ec5439283f50b76aa6"
   integrity sha512-i0ap/E+OaSfzw7bD1TtYnPo3VEplkl70WX5fZqZnfZsE3k3aSFudqrrC9ldFZfYFkn1zwDmBcdGfiIm/hnbyZA==
