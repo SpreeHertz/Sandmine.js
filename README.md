@@ -17,7 +17,7 @@ More features are coming very soon 😉!
 * [Step 2: Opening LAN World](#step-2-opening-lan-world)
 * [Step 3: Configuration](#step-3-configuration)
 * [Step 4: Start the bot](#step-4-start-the-bot)
-
+* [Errors and how to fix them](#errors-and-how-to-fix-them)
 
 ## Usage/Features
 
@@ -40,6 +40,10 @@ This project is licensed under the **GPL General Public License v3.0.** See the 
 ## Changelogs
 
 View [Changelog.md](https://github.com/SpreeHertz/Sandmine.js/blob/master/Changelog.md).
+
+## To-do list
+
+1. Improve docs
 
 
 # Docs
@@ -144,3 +148,4 @@ In order to make localhost connect, you need to make sure that you have either d
 ### Other Errors
 
 Are you seeing an error that is not mentioned in this Readme? Well, you should report it by clicking [here](https://github.com/sandmine.js/issues/new). I'd be more than happy to help, and there might be others that are down to help you as well.
+
