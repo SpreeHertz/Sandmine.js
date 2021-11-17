@@ -1,5 +1,9 @@
 # Changelogs | Sandmine.js
 
+### November 17th 2021 (v1.0.6)
+
+1. Improved anti-crashing.
+
 ### November 15th 2021 (v1.0.5)
 
 1. Fix table of contents issue.
