@@ -1,5 +1,9 @@
 # Changelogs | Sandmine.js
 
+### November 18th 2021 (v1.0.7)
+
+1. Improved viewer.js.
+
 ### November 17th 2021 (v1.0.6)
 
 1. Improved anti-crashing.

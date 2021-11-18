@@ -4,7 +4,7 @@ const chalk = require('chalk');
 
 bot.once('spawn', () => {
 	mineflayerViewer(bot, { port: 3000 });
-	console.log(chalk.blueBright(`You can view your bot by going to https://localhost:3000`));
+	console.log(chalk.blueBright(`You can view your bot on your browser by going to https://localhost:3000.`));
 
 	// Draw the path followed by the bot
 	const path = [bot.entity.position.clone()];
