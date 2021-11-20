@@ -1,3 +1,6 @@
+// Delete this file if you don't want your bot to bow PvP.
+
+
 const bot = require('../../index');
 const minecraftHawkEye = require('minecrafthawkeye');
 

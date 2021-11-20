@@ -1,3 +1,5 @@
+// Delete this file if you don't want your bot to kill a mob.
+
 const bot = require('../../index');
 const killMob = require('../../config.json').mobToKill;
 

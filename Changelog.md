@@ -1,5 +1,10 @@
 # Changelogs | Sandmine.js
 
+### November 20th 2021 (v1.0.8)
+
+1. Added more instructions on code.
+2. Improved on-kick callback.
+
 ### November 18th 2021 (v1.0.7)
 
 1. Improved viewer.js.

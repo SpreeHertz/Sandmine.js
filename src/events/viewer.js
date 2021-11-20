@@ -1,3 +1,5 @@
+// Do not delete/modify this file unless you know what you're doing.
+
 const mineflayerViewer = require('prismarine-viewer').mineflayer;
 const bot = require('../../index');
 const chalk = require('chalk');

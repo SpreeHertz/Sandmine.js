@@ -1,3 +1,5 @@
+// Delete this file if you don't want your bot to auto eat food.
+
 const bot = require('../../index');
 const autoeat = require('mineflayer-auto-eat');
 const chalk = require('chalk');

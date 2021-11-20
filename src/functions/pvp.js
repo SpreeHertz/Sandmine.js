@@ -1,3 +1,5 @@
+// Delete this file if you don't want your bot to PvP you. (normal)
+
 const bot = require('../../index');
 const { pathfinder } = require('mineflayer-pathfinder');
 const pvp = require('mineflayer-pvp').plugin;

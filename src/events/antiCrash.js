@@ -1,3 +1,5 @@
+// Do not delete/modify this file unless you know what you're doing.
+
 const chalk = require('chalk');
 const bot = require('../../index');
 

@@ -1,3 +1,5 @@
+// Do not modify/delete this file unless you know what you're doing.
+
 const mineflayer = require('mineflayer');
 require('dotenv').config();
 const chalk = require('chalk');
@@ -6,7 +8,7 @@ const fs = require('fs');
 // Log
 console.log(chalk.blueBright.bold(`Logging into ${process.env.bot_username}...`));
 
-// creating the bot
+// Bot constructor
 const bot = mineflayer.createBot({
 	host: process.env.host,
 	port: parseInt(process.env.port),
