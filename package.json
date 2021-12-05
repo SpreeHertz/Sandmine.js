@@ -1,10 +1,11 @@
 {
-  "name": "inside-minecraft-bot",
+  "name": "sandminejs",
+  "private": true,
   "version": "1.0.0",
   "description": "A simple minecraft bot with several functions like pathfinding, PvPing, and more, completely built with JavaScript.",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon .",
+    "dev": "nodemon .",
     "lint": "eslint ."
   },
   "author": "SpreeHertz",
