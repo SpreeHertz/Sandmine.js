@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksandmine_docs=self.webpackChunksandmine_docs||[]).push([[987],{9648:function(a){a.exports=JSON.parse('{"allTagsPath":"/Sandmine.js/blog/tags","slug":"/Sandmine.js/blog/tags/facebook","name":"facebook","count":1,"permalink":"/Sandmine.js/blog/tags/facebook"}')}}]);
