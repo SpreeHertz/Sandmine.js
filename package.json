@@ -13,7 +13,7 @@
   "dependencies": {
     "chalk": "^5.0.0",
     "dotenv": "^10.0.0",
-    "minecraft-data": "^2.100.0",
+    "minecraft-data": "^2.100.1",
     "minecrafthawkeye": "^1.2.7",
     "mineflayer": "^3.11.2",
     "mineflayer-auto-eat": "^2.3.3",
