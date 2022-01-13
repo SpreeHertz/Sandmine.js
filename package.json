@@ -12,8 +12,8 @@
   "license": "GNU General Public License v3.0",
   "dependencies": {
     "chalk": "^5.0.0",
-    "dotenv": "^10.0.0",
-    "minecraft-data": "^2.106.0",
+    "dotenv": "^11.0.0",
+    "minecraft-data": "^2.100.0",
     "minecrafthawkeye": "^1.2.7",
     "mineflayer": "^3.14.1",
     "mineflayer-auto-eat": "^2.3.3",
