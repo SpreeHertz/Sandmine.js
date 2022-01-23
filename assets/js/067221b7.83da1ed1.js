@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksandmine_docs=self.webpackChunksandmine_docs||[]).push([[316],{3185:function(s){s.exports=JSON.parse('{"allTagsPath":"/Sandmine.js/blog/tags","slug":"/Sandmine.js/blog/tags/docusaurus","name":"docusaurus","count":4,"permalink":"/Sandmine.js/blog/tags/docusaurus"}')}}]);

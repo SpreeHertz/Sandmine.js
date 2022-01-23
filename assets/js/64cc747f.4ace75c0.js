@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksandmine_docs=self.webpackChunksandmine_docs||[]).push([[773],{5387:function(e){e.exports=JSON.parse('{"permalink":"/Sandmine.js/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
