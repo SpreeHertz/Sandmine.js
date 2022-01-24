@@ -28,7 +28,6 @@ More features are coming very soon 😉!
 * Pathfinds the player and gets as close as possible if a player says "`follow me`" and stops if you say "`stop`".
 * PvP you if you say "`fight me`" and stops if you say "`stop`".
 * Bow fights you.
-* View what your bot is doing in your browser
 
 ## Credits
 This bot is made possible with [mineflayer](https://github.com/prismarinejs/mineflayer) and its other packages.
@@ -41,13 +40,10 @@ This project is licensed under the **GPL General Public License v3.0.** See the 
 
 View [Changelog.md](https://github.com/SpreeHertz/Sandmine.js/blob/master/Changelog.md).
 
-## To-do list
-
-1. Improve docs
-
 
 # Docs
 You can make your own version of Sandmine.js. Please read the docs fully so that you understand what's happening, and to reduce the amount of errors you may run into.
+See the web version of the documentation at https://sandmine.js.org
 
 Also, it would be appreciated if you credit me.
 
@@ -140,12 +136,11 @@ This occurs when the bot crashes immediately (most probably because of the ECONN
  * Make sure you have `cd foldername`. You want your terminal to go inside the folder where you've cloned Sandmine.js.
  * Make sure you haven't deleted any main files like `index.js` or `src/events`. If you don't really have much knowledge of JavaScript, it's recommended that you just delete files from `src/functions` folder to turn off particular functions, unless **you know what you're doing.**
 
-### localhost refused to connect
-![image](https://user-images.githubusercontent.com/48062454/140536810-e2bf992f-c79a-4498-8f45-6fe474e6389e.png)
-
-In order to make localhost connect, you need to make sure that you have either done `node .` or `npm run test`.
-
 ### Other Errors
 
 Are you seeing an error that is not mentioned in this Readme? Well, you should report it by clicking [here](https://github.com/sandmine.js/issues/new). I'd be more than happy to help, and there might be others that are down to help you as well.
 
+
+### Tags (ignore)
+
+minecraft, minecarft bot, minecraft pathfinder, minecraft javascript bot, minecraft js, minecraft easy to use bot
