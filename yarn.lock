@@ -1323,7 +1323,8 @@ mimic-response@^1.0.0, mimic-response@^1.0.1:
   resolved "https://registry.yarnpkg.com/mimic-response/-/mimic-response-1.0.1.tgz#4923538878eef42063cb8a3e3b0798781487ab1b"
   integrity sha512-j5EctnkH7amfV/q5Hgmoal1g2QHFJRraOtmx0JpIqkxhBhI/lJSl1nMpQ45hVarwNETOoWEimndZ4QK0RHxuxQ==
 
-minecraft-data@^2.100.0, minecraft-data@^2.109.0, minecraft-data@^2.61.0, minecraft-data@^2.62.1, minecraft-data@^2.70.0, minecraft-data@^2.73.1, minecraft-data@^2.74.0, minecraft-data@^2.75.0, minecraft-data@^2.83.1, minecraft-data@^2.93.0, minecraft-data@^2.98.0:
+
+minecraft-data@^2.110.0, minecraft-data@^2.61.0, minecraft-data@^2.62.1, minecraft-data@^2.70.0, minecraft-data@^2.73.1, minecraft-data@^2.74.0, minecraft-data@^2.75.0, minecraft-data@^2.83.1, minecraft-data@^2.93.0, minecraft-data@^2.95.0, minecraft-data@^2.98.0:
   version "2.110.0"
   resolved "https://registry.yarnpkg.com/minecraft-data/-/minecraft-data-2.110.0.tgz#3f8fe6344baff15147810bd5f5cf787a600c3992"
   integrity sha512-mp5TQmcLXBmBpBOgzbVGt0tvRjsjpWyOj1Zmpi+5ZuxHSlHuS7naTrgTlHPuLgWhSY0wbip0iJmIjDoea+jebw==
@@ -1512,9 +1513,9 @@ negotiator@0.6.2:
   integrity sha512-hZXc7K2e+PgeI1eDBe/10Ard4ekbfrrqG8Ep+8Jmf4JID2bNg7NvCPOZN+kfF574pFQI7mum2AUqDidoKqcTOw==
 
 node-fetch@^2.6.1:
-  version "2.6.6"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.6.tgz#1751a7c01834e8e1697758732e9efb6eeadfaf89"
-  integrity sha512-Z8/6vRlTUChSdIgMa51jxQ4lrw/Jy5SOW10ObaA47/RElsAN2c5Pn8bTgFGWn/ibwzXTE8qwr1Yzx28vsecXEA==
+  version "2.6.7"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz#24de9fba827e3b4ae44dc8b20256a379160052ad"
+  integrity sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==
   dependencies:
     whatwg-url "^5.0.0"
 
