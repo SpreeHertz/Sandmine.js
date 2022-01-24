@@ -3,6 +3,6 @@
 const bot = require('../../index');
 
 bot.once('spawn', () => {
-	bot.chat(`Hey!`);
+	bot.chat(`Hi!`);
 });
 

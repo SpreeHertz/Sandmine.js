@@ -1,5 +1,9 @@
 # Changelogs | Sandmine.js
 
+### Jan 24th 2021 (v1.0.9)
+
+1. Removed viewer.js since there were many bugs and it caused the bot to crash.
+
 ### November 20th 2021 (v1.0.8)
 
 1. Added more instructions on code.
