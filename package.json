@@ -12,7 +12,7 @@
   "license": "GNU General Public License v3.0",
   "dependencies": {
     "chalk": "4.0.0",
-    "dotenv": "^14.2.0",
+    "dotenv": "^14.3.0",
     "minecraft-data": "^2.110.0",
     "minecrafthawkeye": "^1.2.7",
     "mineflayer": "^3.15.0",

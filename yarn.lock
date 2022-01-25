@@ -536,10 +536,10 @@ dot-prop@^5.2.0:
   dependencies:
     is-obj "^2.0.0"
 
-dotenv@^14.2.0:
-  version "14.2.0"
-  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-14.2.0.tgz#7e77fd5dd6cff5942c4496e1acf2d0f37a9e67aa"
-  integrity sha512-05POuPJyPpO6jqzTNweQFfAyMSD4qa4lvsMOWyTRTdpHKy6nnnN+IYWaXF+lHivhBH/ufDKlR4IWCAN3oPnHuw==
+dotenv@^14.3.0:
+  version "14.3.0"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-14.3.0.tgz#40f537fe90e229d35361c66cf432903e0db49001"
+  integrity sha512-PCTcOQSXVo9FI1dB7AichJXMEvmiGCq0gnCpjfDUc8505uR+2MeLXWe+Ue4PN5UXa2isHSa78sr7L59fk+2mnQ==
 
 duplexer3@^0.1.4:
   version "0.1.4"
@@ -1326,8 +1326,7 @@ mimic-response@^1.0.0, mimic-response@^1.0.1:
   resolved "https://registry.yarnpkg.com/mimic-response/-/mimic-response-1.0.1.tgz#4923538878eef42063cb8a3e3b0798781487ab1b"
   integrity sha512-j5EctnkH7amfV/q5Hgmoal1g2QHFJRraOtmx0JpIqkxhBhI/lJSl1nMpQ45hVarwNETOoWEimndZ4QK0RHxuxQ==
 
-
-minecraft-data@^2.110.0, minecraft-data@^2.61.0, minecraft-data@^2.62.1, minecraft-data@^2.70.0, minecraft-data@^2.73.1, minecraft-data@^2.74.0, minecraft-data@^2.75.0, minecraft-data@^2.83.1, minecraft-data@^2.93.0, minecraft-data@^2.95.0, minecraft-data@^2.98.0:
+minecraft-data@^2.109.0, minecraft-data@^2.110.0, minecraft-data@^2.61.0, minecraft-data@^2.62.1, minecraft-data@^2.70.0, minecraft-data@^2.73.1, minecraft-data@^2.74.0, minecraft-data@^2.75.0, minecraft-data@^2.83.1, minecraft-data@^2.93.0, minecraft-data@^2.98.0:
   version "2.110.0"
   resolved "https://registry.yarnpkg.com/minecraft-data/-/minecraft-data-2.110.0.tgz#3f8fe6344baff15147810bd5f5cf787a600c3992"
   integrity sha512-mp5TQmcLXBmBpBOgzbVGt0tvRjsjpWyOj1Zmpi+5ZuxHSlHuS7naTrgTlHPuLgWhSY0wbip0iJmIjDoea+jebw==
