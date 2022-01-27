@@ -1326,11 +1326,10 @@ mimic-response@^1.0.0, mimic-response@^1.0.1:
   resolved "https://registry.yarnpkg.com/mimic-response/-/mimic-response-1.0.1.tgz#4923538878eef42063cb8a3e3b0798781487ab1b"
   integrity sha512-j5EctnkH7amfV/q5Hgmoal1g2QHFJRraOtmx0JpIqkxhBhI/lJSl1nMpQ45hVarwNETOoWEimndZ4QK0RHxuxQ==
 
-
-minecraft-data@^2.110.0, minecraft-data@^2.61.0, minecraft-data@^2.62.1, minecraft-data@^2.70.0, minecraft-data@^2.73.1, minecraft-data@^2.74.0, minecraft-data@^2.75.0, minecraft-data@^2.83.1, minecraft-data@^2.93.0, minecraft-data@^2.95.0, minecraft-data@^2.98.0:
-  version "2.110.0"
-  resolved "https://registry.yarnpkg.com/minecraft-data/-/minecraft-data-2.110.0.tgz#3f8fe6344baff15147810bd5f5cf787a600c3992"
-  integrity sha512-mp5TQmcLXBmBpBOgzbVGt0tvRjsjpWyOj1Zmpi+5ZuxHSlHuS7naTrgTlHPuLgWhSY0wbip0iJmIjDoea+jebw==
+minecraft-data@^2.109.0, minecraft-data@^2.110.0, minecraft-data@^2.111.0, minecraft-data@^2.61.0, minecraft-data@^2.62.1, minecraft-data@^2.70.0, minecraft-data@^2.73.1, minecraft-data@^2.74.0, minecraft-data@^2.75.0, minecraft-data@^2.93.0, minecraft-data@^2.98.0:
+  version "2.111.0"
+  resolved "https://registry.yarnpkg.com/minecraft-data/-/minecraft-data-2.111.0.tgz#5c60345869339e77696c3bdf3b08b8b1da51a465"
+  integrity sha512-1irjOyXBBUJSx37BDo4PPFGf9qOcN+dBEJf5CjEDqBnn4fN5xN+juOjOt2yfwacRfT6mm8MQ21h4yGjXUSZJzg==
 
 minecraft-folder-path@^1.2.0:
   version "1.2.0"
@@ -1762,15 +1761,15 @@ prismarine-recipe@^1.1.0:
   resolved "https://registry.yarnpkg.com/prismarine-recipe/-/prismarine-recipe-1.1.0.tgz#ba83fea0d6f5ad3be83398a20f85f7e800665732"
   integrity sha512-eFmriEWoe6S6OSVbOJnsXpaBuzeIzjaGymDUTCtrOu80734NWKI7outdLI6R2ztJ+f2PFIkFmpkazAdScStGNA==
 
-prismarine-viewer@^1.21.0:
-  version "1.21.0"
-  resolved "https://registry.yarnpkg.com/prismarine-viewer/-/prismarine-viewer-1.21.0.tgz#1c0d7eb22bb899752effcdfb3fdb38ca43c3ee41"
-  integrity sha512-XrEf1GzGTpj4KfMYsqKpUyK27fkW+qjHmBt7XDFHiObsLlpZ6hBL2fjMXunGgpgvBLfKCCfNlz62l6cZep/q9A==
+prismarine-viewer@^1.22.0:
+  version "1.22.0"
+  resolved "https://registry.yarnpkg.com/prismarine-viewer/-/prismarine-viewer-1.22.0.tgz#b54bcf8e621b5eabe4b7e1cfaebdd9be83a1941d"
+  integrity sha512-KZm6S2oDCBRi4o7BqDg0XFwNKNaVC2/evYmpc7mteQ6Kz+64+JYWWNW/UN6dIBXAiNwLOsbEr8dBiH/cPP5MEQ==
   dependencies:
     "@tweenjs/tween.js" "^18.6.4"
     compression "^1.7.4"
     express "^4.17.1"
-    minecraft-data "^2.83.1"
+    minecraft-data "^2.111.0"
     prismarine-block "^1.7.3"
     prismarine-chunk "^1.22.0"
     prismarine-world "^3.3.1"
