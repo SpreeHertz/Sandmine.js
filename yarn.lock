@@ -1365,7 +1365,7 @@ mineflayer-auto-eat@^2.3.3:
   dependencies:
     minecraft-data "^2.93.0"
 
-mineflayer-pathfinder@^1.0.10, mineflayer-pathfinder@^1.9.1:
+mineflayer-pathfinder@^1.7.0, mineflayer-pathfinder@^1.9.1:
   version "1.9.1"
   resolved "https://registry.yarnpkg.com/mineflayer-pathfinder/-/mineflayer-pathfinder-1.9.1.tgz#c9fea961b8f6fb48c81ba7c31e98bd37d07ea294"
   integrity sha512-4mslXjn7NU5NNXUsYfieQwaycUzAg9Henzqs/ZaBT1Hc53VwmsQK1M2TEqFCOwdU8Q6Urk0LcY/87SBPIz8BZQ==
@@ -1378,15 +1378,14 @@ mineflayer-pathfinder@^1.0.10, mineflayer-pathfinder@^1.9.1:
     prismarine-physics "^1.2.2"
     vec3 "^0.1.7"
 
-mineflayer-pvp@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/mineflayer-pvp/-/mineflayer-pvp-1.0.2.tgz#41ee42d13416337c3c6781e7a75bcd6d72d6f6ec"
-  integrity sha512-gXmkzDdCLOXa2S420jY13MetgoNvQn2iOzrHv4vTDIQ33jeK4ORpch4DzEUAd/XCJkTMOJXjY/w+U2uzS6QKrQ==
+mineflayer-pvp@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/mineflayer-pvp/-/mineflayer-pvp-1.2.1.tgz#5475cd59ec9f5965cd7df160b6bfae4aca00a1c5"
+  integrity sha512-4KGRTzNuX+3adD/4DKcvdO5Mc2YT3vXdHkK8ucIrxXP4H2SH2wk3lzFJt+zvqsds234KcMjuVozHG4iCxaewmQ==
   dependencies:
-    mineflayer "^2.30.0"
-    mineflayer-pathfinder "^1.0.10"
+    mineflayer "^4.0.0"
+    mineflayer-pathfinder "^1.7.0"
     mineflayer-utils "^0.1.4"
-    prismarine-entity "^1.0.0"
 
 mineflayer-utils@^0.1.4:
   version "0.1.4"
@@ -1399,7 +1398,7 @@ mineflayer-utils@^0.1.4:
     require-self "^0.2.3"
     typescript "^3.9.7"
 
-mineflayer@^2.27.0, mineflayer@^2.30.0:
+mineflayer@^2.27.0:
   version "2.41.0"
   resolved "https://registry.yarnpkg.com/mineflayer/-/mineflayer-2.41.0.tgz#1ab8e813077daa7cf6a535ca542e159de14a489e"
   integrity sha512-IFFy4NgF24FU2PkAwazJphl2F+3gpbpN578ex0sq1XfcBBRge3kCz1UC2KDMjKI+V/8vffOL+OEnug9jt3f7Vw==
