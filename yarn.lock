@@ -1318,20 +1318,20 @@ mimic-response@^1.0.0, mimic-response@^1.0.1:
   resolved "https://registry.yarnpkg.com/mimic-response/-/mimic-response-1.0.1.tgz#4923538878eef42063cb8a3e3b0798781487ab1b"
   integrity sha512-j5EctnkH7amfV/q5Hgmoal1g2QHFJRraOtmx0JpIqkxhBhI/lJSl1nMpQ45hVarwNETOoWEimndZ4QK0RHxuxQ==
 
-minecraft-data@^2.106.0, minecraft-data@^2.109.0, minecraft-data@^2.111.0, minecraft-data@^2.113.3, minecraft-data@^2.61.0, minecraft-data@^2.62.1, minecraft-data@^2.70.0, minecraft-data@^2.73.1, minecraft-data@^2.74.0, minecraft-data@^2.75.0, minecraft-data@^2.93.0, minecraft-data@^2.98.0:
-  version "2.113.3"
-  resolved "https://registry.yarnpkg.com/minecraft-data/-/minecraft-data-2.113.3.tgz#2e2f2e5596036e6030fa30b5beca14d218dc5bf9"
-  integrity sha512-1JWkIlIx3aX80F93Ktt0lDuOLXOWgg42mET6zJkqrRDvhgp3kOzQb+4Ju6THqDkqZcwpuO7imvbuRX9VngFTdQ==
+minecraft-data@^2.106.0, minecraft-data@^2.109.0, minecraft-data@^2.111.0, minecraft-data@^2.113.3, minecraft-data@^2.114.1, minecraft-data@^2.61.0, minecraft-data@^2.62.1, minecraft-data@^2.70.0, minecraft-data@^2.73.1, minecraft-data@^2.74.0, minecraft-data@^2.75.0, minecraft-data@^2.93.0:
+  version "2.114.1"
+  resolved "https://registry.yarnpkg.com/minecraft-data/-/minecraft-data-2.114.1.tgz#5e264dedec6cd07700118eef4cc6fbe4dc95b0cc"
+  integrity sha512-vHHTXc+oFFyw0neSr14CEImsHxE73gJnt6cG2rqrBpXFN2N7EaJgIVNbXX8OvBAQGLQtAO9QaHog0tk0+aAi9Q==
 
 minecraft-folder-path@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/minecraft-folder-path/-/minecraft-folder-path-1.2.0.tgz#08ea450bfb20dbb02cf6e1470864e2f0d652e477"
   integrity sha512-qaUSbKWoOsH9brn0JQuBhxNAzTDMwrOXorwuRxdJKKKDYvZhtml+6GVCUrY5HRiEsieBEjCUnhVpDuQiKsiFaw==
 
-minecraft-protocol@^1.17.0, minecraft-protocol@^1.26.5:
-  version "1.30.0"
-  resolved "https://registry.yarnpkg.com/minecraft-protocol/-/minecraft-protocol-1.30.0.tgz#7c07711cbbb50299e5960107a5b4d3f900eda447"
-  integrity sha512-Zi/TAYyLQrGV8HjBAs2z4DnusezcVdgxEVZH0cxilOElI/xJuPZ7fwXhixHPvyJnuK3RPyCvwOUjhHX27tGcoA==
+minecraft-protocol@^1.17.0, minecraft-protocol@^1.26.5, minecraft-protocol@^1.31.0:
+  version "1.31.0"
+  resolved "https://registry.yarnpkg.com/minecraft-protocol/-/minecraft-protocol-1.31.0.tgz#0d3794a749a3c3ce1625241751d53590818ba682"
+  integrity sha512-wtjz15IzopQmpJANwECeXvsr3vKv/OZGCBCjsv2U3ZDQXC7oQXNlwNXRCJunkfSDOV2KnDsw9dWdi+w3y34O1A==
   dependencies:
     aes-js "^3.1.2"
     buffer-equal "^1.0.0"
@@ -1339,7 +1339,7 @@ minecraft-protocol@^1.17.0, minecraft-protocol@^1.26.5:
     endian-toggle "^0.0.0"
     lodash.get "^4.1.2"
     lodash.merge "^4.3.0"
-    minecraft-data "^2.98.0"
+    minecraft-data "^2.109.0"
     minecraft-folder-path "^1.2.0"
     node-fetch "^2.6.1"
     node-rsa "^0.4.2"
@@ -1441,13 +1441,13 @@ mineflayer@^3.6.0:
     typed-emitter "^1.0.0"
     vec3 "^0.1.7"
 
-mineflayer@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/mineflayer/-/mineflayer-4.0.0.tgz#1fcd7162e8ba3cb997eb4be5dcee0d7359d11a31"
-  integrity sha512-Yg/r/DC2Ski0ys+tyfE0d7VRJvamtfoCCEICf+q/3XyiSw36+Dt0guPpglQ2h2wZQrRaUqe9przZe+gdWgusug==
+mineflayer@^4.0.0, mineflayer@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/mineflayer/-/mineflayer-4.1.0.tgz#12d0628bb3ff1d0e5341b968f116beeac62ab573"
+  integrity sha512-Av6qote/cmWrlCB4WArleKHmh8zrU4SYOygdLVi9OglUbsUnaIGPkbSrneL0vhW/io+1WR6/OjHts8W8Hc73Dg==
   dependencies:
-    minecraft-data "^2.109.0"
-    minecraft-protocol "^1.26.5"
+    minecraft-data "^2.114.1"
+    minecraft-protocol "^1.31.0"
     prismarine-biome "^1.1.1"
     prismarine-block "^1.13.1"
     prismarine-chat "^1.3.3"
