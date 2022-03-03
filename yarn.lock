@@ -1318,7 +1318,6 @@ mimic-response@^1.0.0, mimic-response@^1.0.1:
   resolved "https://registry.yarnpkg.com/mimic-response/-/mimic-response-1.0.1.tgz#4923538878eef42063cb8a3e3b0798781487ab1b"
   integrity sha512-j5EctnkH7amfV/q5Hgmoal1g2QHFJRraOtmx0JpIqkxhBhI/lJSl1nMpQ45hVarwNETOoWEimndZ4QK0RHxuxQ==
 
-minecraft-data@^2.106.0, minecraft-data@^2.109.0, minecraft-data@^2.111.0, minecraft-data@^2.113.3, minecraft-data@^2.114.1, minecraft-data@^2.61.0, minecraft-data@^2.62.1, minecraft-data@^2.70.0, minecraft-data@^2.73.1, minecraft-data@^2.74.0, minecraft-data@^2.75.0, minecraft-data@^2.93.0:
   version "2.114.1"
   resolved "https://registry.yarnpkg.com/minecraft-data/-/minecraft-data-2.114.1.tgz#5e264dedec6cd07700118eef4cc6fbe4dc95b0cc"
   integrity sha512-vHHTXc+oFFyw0neSr14CEImsHxE73gJnt6cG2rqrBpXFN2N7EaJgIVNbXX8OvBAQGLQtAO9QaHog0tk0+aAi9Q==
