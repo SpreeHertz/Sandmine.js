@@ -12,12 +12,12 @@
   "license": "GNU General Public License v3.0",
   "dependencies": {
     "chalk": "4.1.2",
-    "minecraft-data": "^2.114.1",
+    "minecraft-data": "^2.115.2",
     "dotenv": "^16.0.0",
     "minecrafthawkeye": "^1.2.7",
     "mineflayer": "^4.1.0",
     "mineflayer-auto-eat": "^2.3.3",
-    "mineflayer-pathfinder": "^1.9.1",
+    "mineflayer-pathfinder": "^1.10.0",
     "mineflayer-pvp": "^1.2.1",
     "prismarine-entity": "^2.0.0",
     "prismarine-viewer": "^1.22.0"
