@@ -1318,10 +1318,15 @@ mimic-response@^1.0.0, mimic-response@^1.0.1:
   resolved "https://registry.yarnpkg.com/mimic-response/-/mimic-response-1.0.1.tgz#4923538878eef42063cb8a3e3b0798781487ab1b"
   integrity sha512-j5EctnkH7amfV/q5Hgmoal1g2QHFJRraOtmx0JpIqkxhBhI/lJSl1nMpQ45hVarwNETOoWEimndZ4QK0RHxuxQ==
 
-minecraft-data@^2.106.0, minecraft-data@^2.109.0, minecraft-data@^2.111.0, minecraft-data@^2.114.1, minecraft-data@^2.118.0, minecraft-data@^2.119.1, minecraft-data@^2.61.0, minecraft-data@^2.62.1, minecraft-data@^2.70.0, minecraft-data@^2.73.1, minecraft-data@^2.74.0, minecraft-data@^2.75.0, minecraft-data@^2.93.0:
+minecraft-data@^2.106.0, minecraft-data@^2.109.0, minecraft-data@^2.111.0, minecraft-data@^2.114.1, minecraft-data@^2.118.0, minecraft-data@^2.61.0, minecraft-data@^2.62.1, minecraft-data@^2.70.0, minecraft-data@^2.73.1, minecraft-data@^2.74.0, minecraft-data@^2.75.0, minecraft-data@^2.93.0:
   version "2.119.1"
   resolved "https://registry.yarnpkg.com/minecraft-data/-/minecraft-data-2.119.1.tgz#2ed8abc221b412198ef4f985110e79885ca0d143"
   integrity sha512-B6YnLhYyvGOR+Hz/h63qvebHU/5JV7AViUEgQKIL/Lqn2LrXYmPl5xqEvfscFWTiQErIBnMEOeu0uWzKlWKlVw==
+
+minecraft-data@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/minecraft-data/-/minecraft-data-3.0.0.tgz#ee99428b812d9ea295e6cfc21e243b761f9c128b"
+  integrity sha512-8gChk4VUYky3XfMRO+YE1eS7OHC7uzEbxuosav7f5P8rewJ/8XNIPTmXYZOWnC2MoYCFwHRNHhwpt2YuxsDYqw==
 
 minecraft-folder-path@^1.2.0:
   version "1.2.0"
