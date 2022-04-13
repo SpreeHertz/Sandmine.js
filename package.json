@@ -15,7 +15,7 @@
     "minecraft-data": "^3.0.0",
     "dotenv": "^16.0.0",
     "minecrafthawkeye": "^1.2.7",
-    "mineflayer": "^4.1.0",
+    "mineflayer": "^4.2.0",
     "mineflayer-auto-eat": "^2.3.3",
     "mineflayer-pathfinder": "^2.0.0",
     "mineflayer-pvp": "^1.2.1",
