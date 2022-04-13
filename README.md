@@ -4,8 +4,6 @@
 
 Contributions are always welcome! You can open a pull request by [clicking here](https://github.com/spreehertz/sandmine.js/pulls). <br>
 
-More features are coming very soon 😉!
-
 # Table of contents
 
 * [Usage/Features](#usagefeatures)
