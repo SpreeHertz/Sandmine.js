@@ -2386,7 +2386,7 @@ mimic-response@^3.1.0:
   resolved "https://registry.yarnpkg.com/mimic-response/-/mimic-response-3.1.0.tgz#2d1d59af9c1b129815accc2c46a022a5ce1fa3c9"
   integrity sha512-z0yWI+4FDrrweS8Zmt4Ej5HdJmky15+L2e6Wgn3+iK5fWzb6T3fhNFq2+MeTRb064c6Wr4N/wv0DzQTjNzHNGQ==
 
-minecraft-data@^2.113.1, minecraft-data@^2.115.1:
+minecraft-data@^2.113.1:
   version "2.221.0"
   resolved "https://registry.yarnpkg.com/minecraft-data/-/minecraft-data-2.221.0.tgz#b6a6629c9c33bc640e540de3ebe94a96d0e8b0bc"
   integrity sha512-0AhqzbIKb6WqPSF6qBevaPryeWOz545hLxt6q+gfJF8YIQX/YfkyX/nXWhl+pSIS2rTBcQ0RJkRCtTeRzQwHDA==
@@ -2423,19 +2423,19 @@ minecraft-protocol@^1.31.0:
     uuid-1345 "^1.0.1"
     yggdrasil "^1.4.0"
 
-mineflayer@^4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/mineflayer/-/mineflayer-4.2.0.tgz#1ed797420090324f5470380b9a51e9cc6f3c90eb"
-  integrity sha512-PqeR/1Np+u0aC67gO92PgGPzLTQ7kJIfYNoS/ok0P/ChiUUKOIxnNEqp5laWUs+I1p4oyNIxS88q9lNIjCg8xQ==
+mineflayer@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/mineflayer/-/mineflayer-4.4.0.tgz#c432200aa62f0775cbbc9a150672dd355c204855"
+  integrity sha512-nKy1KQSb20zWGtwlvwCmduAT7PHTchoR5jFAf4c8PzsxMznVCg9UeDOXYY8DfROpm6Kqjsg7DcQDFnS2frDD6w==
   dependencies:
-    minecraft-data "^2.115.1"
+    minecraft-data "^3.0.0"
     minecraft-protocol "^1.31.0"
     prismarine-biome "^1.1.1"
     prismarine-block "^1.13.1"
     prismarine-chat "^1.3.3"
     prismarine-chunk "^1.29.0"
     prismarine-entity "^2.0.0"
-    prismarine-item "^1.11.0"
+    prismarine-item "^1.11.5"
     prismarine-nbt "^2.0.0"
     prismarine-physics "^1.3.1"
     prismarine-recipe "^1.1.0"
@@ -3024,7 +3024,7 @@ prismarine-entity@^2.0.0:
     prismarine-item "^1.11.2"
     vec3 "^0.1.4"
 
-prismarine-item@^1.10.0, prismarine-item@^1.10.1, prismarine-item@^1.11.0, prismarine-item@^1.11.2, prismarine-item@^1.5.0:
+prismarine-item@^1.10.0, prismarine-item@^1.10.1, prismarine-item@^1.11.2, prismarine-item@^1.11.5, prismarine-item@^1.5.0:
   version "1.11.5"
   resolved "https://registry.yarnpkg.com/prismarine-item/-/prismarine-item-1.11.5.tgz#2eb55de849629c13e4582b061f89f030cd572f6b"
   integrity sha512-aWH1AXTiSDUUM0LVnFtJJ96If/sOiuM3DBZmSvtwFD+ufQsF3WndH2QW2Pv6FbabKByneF9xyPsq5dhUnvcG7g==
