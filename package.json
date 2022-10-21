@@ -49,7 +49,7 @@
     "dotenv": "^16.0.0",
     "electron-squirrel-startup": "^1.0.0",
     "fs": "^0.0.1-security",
-    "mineflayer": "^4.2.0"
+    "mineflayer": "^4.5.1"
   },
   "devDependencies": {
     "@electron-forge/cli": "^6.0.0-beta.63",
