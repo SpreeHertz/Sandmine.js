@@ -17,16 +17,44 @@
     via-yellow-300 to-yellow-500 
     animate-text font-inter pt-40">Welcome.</h1>
   </div>
-  <label for="server-address-icon" class="font-inter block mb-2 text-sm font-medium text-gray-900 dark:text-white">Server address</label>
-  <div class="relative">
-    <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 14.25h13.5m-13.5 0a3 3 0 01-3-3m3 3a3 3 0 100 6h13.5a3 3 0 100-6m-16.5-3a3 3 0 013-3h13.5a3 3 0 013 3m-19.5 0a4.5 4.5 0 01.9-2.7L5.737 5.1a3.375 3.375 0 012.7-1.35h7.126c1.062 0 2.062.5 2.7 1.35l2.587 3.45a4.5 4.5 0 01.9 2.7m0 0a3 3 0 01-3 3m0 3h.008v.008h-.008v-.008zm0-6h.008v.008h-.008v-.008zm-3 6h.008v.008h-.008v-.008zm0-6h.008v.008h-.008v-.008z" />
-      </svg>
-      
+  <br>
+<!-- Server address -->
+  <form>
+    <label for="search" class="mb-2 text-sm font-medium sr-only">Server address</label>
+    <div class="relative">      
+        <div class="items-center justify-center flex">
+          <input type="text" id="serverAddress" class="self-center block w-96 p-4 text-sm text-white border border-gray-300 rounded-lg bg-white font-inter focus:ring-rose-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-rose-500 dark:focus:border-rose-500" placeholder="Server address (eg: localhost)">
+        </div>
     </div>
-    <input type="text" id="server-address-icon" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="localhost">
+  </form>
+<br>
+  <!-- Server port-->
+  <form>
+    <label for="search" class="mb-2text-sm font-medium sr-only">Server port (eg: 8080)</label>
+    <div class="relative">      
+        <div class="items-center justify-center flex">
+          <input type="text" id="serverPort" class="self-center block w-96 p-4 text-sm text-white border border-gray-300 rounded-lg bg-white font-inter focus:ring-rose-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-rose-500 dark:focus:border-rose-500" placeholder="Server port (eg: 8080)">
+        </div>
+    </div>
+<br>
+  <!-- Bot username -->
+  <form>
+    <label for="search" class="mb-2 text-sm font-medium sr-only">Bot username (eg: Sugma)</label>
+    <div class="relative">      
+        <div class="items-center justify-center flex">
+          <input type="text" id="botUsername" class="self-center block w-96 p-4 text-sm text-white border border-gray-300 rounded-lg bg-white font-inter focus:ring-rose-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-rose-500 dark:focus:border-rose-500" placeholder="Bot username (eg: Sugma)">
+        </div>
+    </div>
+  </form>
+<br>
+  <!-- Create bot button -->
+  <div class="flex justify-center">
+    <button class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-teal-300 to-lime-300 group-hover:from-teal-300 group-hover:to-lime-300 dark:text-white dark:hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-lime-800">
+      <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-gray-500 dark:bg-gray-500 rounded-md group-hover:bg-opacity-0">
+          Create
+      </span>
+    </button>
   </div>
-  
+ 
 </body>
 </html>
