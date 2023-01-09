@@ -1,0 +1,22 @@
+{
+  "name": "sandmine.js",
+  "version": "1.0.0",
+  "main": "main.js",
+  "repository": "https://github.com/SpreeHertz/Sandmine.js.git",
+  "author": "SpreeHertz",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "electron . --inspect",
+    "css": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "prod": "electron . --prod"
+  },
+  "dependencies": {
+    "electron": "^22.0.0",
+    "electron-reload": "^2.0.0-alpha.1"
+  },
+  "devDependencies": {
+    "postcss-loader": "^7.0.2",
+    "tailwindcss": "^3.2.4"
+  }
+}
