@@ -1,4 +1,6 @@
-# Sandmine.js
+# dead, needs critial fix, DO NOT USE UNTIL DEVELOPMENT COMMENCES.
+
+
 
 **Sandmine.js** is a simple minecraft bot, with several cool functions, all made with JavaScript. 
 
