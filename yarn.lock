@@ -2197,9 +2197,9 @@ minecraft-protocol@^1.49.0:
     yggdrasil "^1.4.0"
 
 mineflayer@^4.2.0:
-  version "4.21.0"
-  resolved "https://registry.yarnpkg.com/mineflayer/-/mineflayer-4.21.0.tgz#dba755289cdbc627072d71fb7d8bfc38173a68b3"
-  integrity sha512-0DiMOVan0u9ikZRzeTwXwXRJ+wXxsUTooG6TDVRKBYKAy99yRvIMVCrbarUcZuGhhQdEyeItC3+VwyfbU539NA==
+  version "4.22.0"
+  resolved "https://registry.yarnpkg.com/mineflayer/-/mineflayer-4.22.0.tgz#201295b313585fe97df527377e24eda4b901fa57"
+  integrity sha512-fjIcFtmyDOyeZp64S5Af1tlVAgEfu4E8O4TyqnbVPq0RZXZe8MinhR3yE1eML3iAhcswElnSQjijgx3Y8C8h3A==
   dependencies:
     minecraft-data "^3.76.0"
     minecraft-protocol "^1.49.0"
@@ -2744,9 +2744,9 @@ prismarine-recipe@^1.3.0:
   integrity sha512-xfa9E9ACoaDi+YzNQ+nk8kWSIqt5vSZOOCHIT+dTXscf/dng2HaJ/59uwe1D/jvOkAd2OvM6RRJM6fFe0q/LDA==
 
 prismarine-registry@^1.1.0, prismarine-registry@^1.4.0, prismarine-registry@^1.7.0, prismarine-registry@^1.8.0:
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/prismarine-registry/-/prismarine-registry-1.8.0.tgz#cae2a2a5499a37af16021e8597d83b5f17b2201b"
-  integrity sha512-BLvvjuVdjp2wQQ6c0wMnc5oszY+dUxCVKvXVBRNK51qYE1X239imzJIRT6gkLC8nFSQR6mtcuOENIBwoIHLs0A==
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/prismarine-registry/-/prismarine-registry-1.9.0.tgz#c2963902592aecffc4b431cf2f61b1fc0ec16e27"
+  integrity sha512-RZ5PvedMGA/uEwZOsnmC9MYq1CupH2CHwm9UT4Ara87Vf7QMfxxPTZZ4GXq7EJmmxe5qodhDYoq6Z8mz11oXlQ==
   dependencies:
     minecraft-data "^3.70.0"
     prismarine-nbt "^2.0.0"
