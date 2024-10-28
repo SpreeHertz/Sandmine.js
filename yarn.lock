@@ -209,11 +209,10 @@
     fs-extra "^10.0.0"
 
 "@electron/asar@^3.2.1":
-  version "3.2.13"
-  resolved "https://registry.yarnpkg.com/@electron/asar/-/asar-3.2.13.tgz#56565ea423ead184465adfa72663b2c70d9835f2"
-  integrity sha512-pY5z2qQSwbFzJsBdgfJIzXf5ElHTVMutC2dxh0FD60njknMu3n1NnTABOcQwbb5/v5soqE79m9UjaJryBf3epg==
+  version "3.2.14"
+  resolved "https://registry.yarnpkg.com/@electron/asar/-/asar-3.2.14.tgz#8ae3d49e8548aa0b6847c62e021f829a88794408"
+  integrity sha512-hc52QkesULqbxTRC1vOmSBN1YndUkieoNMfvpe988h0MEoGGqbijkOqv4/2M9PufBJxiTVoDdBmBFfXPowZDQg==
   dependencies:
-    "@types/glob" "^7.1.0"
     commander "^5.0.0"
     glob "^7.1.6"
     minimatch "^3.0.4"
@@ -431,7 +430,7 @@
   dependencies:
     "@types/node" "*"
 
-"@types/glob@^7.1.0", "@types/glob@^7.1.1":
+"@types/glob@^7.1.1":
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/@types/glob/-/glob-7.2.0.tgz#bc1b5bf3aa92f25bd5dd39f35c57361bdce5b2eb"
   integrity sha512-ZUxbzKl0IfJILTS6t7ip5fQQM/J3TJYubDm3nMbgubNNYS62eXeUpoLUC8/7fJNiFYHTrGPQn7hspDUzIHX3UA==
@@ -464,9 +463,9 @@
     undici-types "~6.19.8"
 
 "@types/node@^16.11.26":
-  version "16.18.114"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.18.114.tgz#794d93059fd94a85503484e111aa820b3ebb4d4b"
-  integrity sha512-7oAtnxrgkMNzyzT443UDWwzkmYew81F1ZSPm3/lsITJfW/WludaSOpegTvUG+UdapcbrtWOtY/E4LyTkhPGJ5Q==
+  version "16.18.115"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.18.115.tgz#0bb385c4b1a1a996d6bf9d79e5ae786ce03cae51"
+  integrity sha512-NF5ajYn+dq0tRfswdyp8Df75h7D9z+L8TCIwrXoh46ZLK6KZVXkRhf/luXaZytvm/keUo9vU4m1Bg39St91a5w==
 
 "@types/readable-stream@^4.0.0":
   version "4.0.16"
