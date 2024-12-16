@@ -463,16 +463,16 @@
     "@types/node" "*"
 
 "@types/node@*":
-  version "22.10.1"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.10.1.tgz#41ffeee127b8975a05f8c4f83fb89bcb2987d766"
-  integrity sha512-qKgsUwfHZV2WCWLAnVP1JqnpE6Im6h3Y0+fYgMTasNQ7V++CBX5OT1as0g0f+OyubbFqhf6XVNIsmN4IIhEgGQ==
+  version "22.10.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.10.2.tgz#a485426e6d1fdafc7b0d4c7b24e2c78182ddabb9"
+  integrity sha512-Xxr6BBRCAOQixvonOye19wnzyDiUtTeqldOOmj3CkeblonbccA12PFwlufvRdrpjXxqnmUaeiU5EOA+7s5diUQ==
   dependencies:
     undici-types "~6.20.0"
 
 "@types/node@^16.11.26":
-  version "16.18.121"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.18.121.tgz#88c4e91474b1eb4ae68e39cec8b274e9c792650a"
-  integrity sha512-Gk/pOy8H0cvX8qNrwzElYIECpcUn87w4EAEFXFvPJ8qsP9QR/YqukUORSy0zmyDyvdo149idPpy4W6iC5aSbQA==
+  version "16.18.122"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.18.122.tgz#54948ddbe2ddef8144ee16b37f160e3f99c32397"
+  integrity sha512-rF6rUBS80n4oK16EW8nE75U+9fw0SSUgoPtWSvHhPXdT7itbvmS7UjB/jyM8i3AkvI6yeSM5qCwo+xN0npGDHg==
 
 "@types/readable-stream@^4.0.0":
   version "4.0.18"
@@ -1751,10 +1751,10 @@ is-arrayish@^0.2.1:
   resolved "https://registry.yarnpkg.com/is-arrayish/-/is-arrayish-0.2.1.tgz#77c99840527aa8ecb1a8ba697b80645a7a926a9d"
   integrity sha512-zz06S8t0ozoDXMG+ube26zeCTNXcKIPJZJi8hBrF4idCLms4CG9QtK7qBl1boi5ODzFpjswb5JPmHCbMpjaYzg==
 
-is-core-module@^2.13.0:
-  version "2.15.1"
-  resolved "https://registry.yarnpkg.com/is-core-module/-/is-core-module-2.15.1.tgz#a7363a25bee942fefab0de13bf6aa372c82dcc37"
-  integrity sha512-z0vtXSwucUJtANQWldhbtbt7BnL0vxiFjIdDLAatwhDYty2bad6s+rijD6Ri4YuYJubLzIJLUidCh09e1djEVQ==
+is-core-module@^2.16.0:
+  version "2.16.0"
+  resolved "https://registry.yarnpkg.com/is-core-module/-/is-core-module-2.16.0.tgz#6c01ffdd5e33c49c1d2abfa93334a85cb56bd81c"
+  integrity sha512-urTSINYfAYgcbLb0yDQ6egFm6h3Mo1DcF9EkyXSRjjzdHbsulg01qhwWuXdOoUBuTkbQ80KDboXa0vFJ+BDH+g==
   dependencies:
     hasown "^2.0.2"
 
@@ -2697,11 +2697,11 @@ prismarine-item@^1.10.1, prismarine-item@^1.11.2, prismarine-item@^1.12.2, prism
     prismarine-registry "^1.4.0"
 
 prismarine-nbt@^2.0.0, prismarine-nbt@^2.2.1, prismarine-nbt@^2.5.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/prismarine-nbt/-/prismarine-nbt-2.6.0.tgz#e15b9bc9a1ff5d10655e720f8a403df5f1591749"
-  integrity sha512-z65ijm6hVlYOmhg8IEzdYfUz1u3AOiQtzyTSAwD8NLBCr96ZUPtUH5o/6sGAoDaN+rkDe0DNBCiO7bvXXO1fkQ==
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/prismarine-nbt/-/prismarine-nbt-2.7.0.tgz#5e406909c5018fbf6a2699cc9d16838ca0d66d8f"
+  integrity sha512-Du9OLQAcCj3y29YtewOJbbV4ARaSUEJiTguw0PPQbPBy83f+eCyDRkyBpnXTi/KPyEpgYCzsjGzElevLpFoYGQ==
   dependencies:
-    protodef "^1.9.0"
+    protodef "^1.18.0"
 
 prismarine-physics@^1.9.0:
   version "1.9.0"
@@ -2788,16 +2788,26 @@ proto-list@~1.2.1:
   integrity sha512-vtK/94akxsTMhe0/cbfpR+syPuszcuwhqVjJq26CuNDgFGj682oRBXOP5MJpv2r7JtE8MsiepGIqvvOTBwn2vA==
 
 protodef-validator@^1.3.0:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/protodef-validator/-/protodef-validator-1.3.1.tgz#bcdec416d25a8c17be19074bb16d157afa37d183"
-  integrity sha512-lZ5FWKZYR9xOjpMw1+EfZRfCjzNRQWPq+Dk+jki47Sikl2EeWEPnTfnJERwnU/EwFq6us+0zqHHzSsmLeYX+Lg==
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/protodef-validator/-/protodef-validator-1.4.0.tgz#dfe74086b9a7a2f378ca52505afe207c62f65a97"
+  integrity sha512-2y2coBolqCEuk5Kc3QwO7ThR+/7TZiOit4FrpAgl+vFMvq8w76nDhh09z08e2NQOdrgPLsN2yzXsvRvtADgUZQ==
   dependencies:
     ajv "^6.5.4"
 
-protodef@1.17.0, protodef@^1.17.0, protodef@^1.9.0:
+protodef@1.17.0:
   version "1.17.0"
   resolved "https://registry.yarnpkg.com/protodef/-/protodef-1.17.0.tgz#cfd5208ca18b0f96baee5974f243ce071980302a"
   integrity sha512-mnpNPV3xwu63u3NwZuXM1RCp979vjHxUGHzVrb6dxbvof5Fx+b8Rs0G0c3xtEuFDreGAMWS7VrlNkDUDBMsFWQ==
+  dependencies:
+    lodash.get "^4.4.2"
+    lodash.reduce "^4.6.0"
+    protodef-validator "^1.3.0"
+    readable-stream "^4.4.0"
+
+protodef@^1.17.0, protodef@^1.18.0:
+  version "1.18.0"
+  resolved "https://registry.yarnpkg.com/protodef/-/protodef-1.18.0.tgz#6fab8d56f1ec612d9945953121b5f58a3063ec4d"
+  integrity sha512-jO64lkzkh0dYc0AVWCU/GzCKwqhFFIz1kfEz0NBf0RUuRNcmvgKbopabJdfZ6W8NvALdySUXgEhvKDZPhdBwrg==
   dependencies:
     lodash.get "^4.4.2"
     lodash.reduce "^4.6.0"
@@ -2937,11 +2947,11 @@ resolve-package@^1.0.1:
     get-installed-path "^2.0.3"
 
 resolve@^1.1.6, resolve@^1.10.0, resolve@^1.20.0:
-  version "1.22.8"
-  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.22.8.tgz#b6c87a9f2aa06dfab52e3d70ac8cde321fa5a48d"
-  integrity sha512-oKWePCxqpd6FlLvGV1VU0x7bkPmmCNolxzjMf4NczoDnQcIWrAF+cPtZn5i6n+RfD2d9i0tzpKnG6Yk168yIyw==
+  version "1.22.9"
+  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.22.9.tgz#6da76e4cdc57181fa4471231400e8851d0a924f3"
+  integrity sha512-QxrmX1DzraFIi9PxdG5VkRfRwIgjwyud+z/iBwfRRrVmHc+P9Q7u2lSSpQ6bjr2gy5lrqIiU9vb6iAeGf2400A==
   dependencies:
-    is-core-module "^2.13.0"
+    is-core-module "^2.16.0"
     path-parse "^1.0.7"
     supports-preserve-symlinks-flag "^1.0.0"
 
