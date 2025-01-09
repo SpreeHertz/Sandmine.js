@@ -2108,9 +2108,9 @@ mimic-response@^3.1.0:
   integrity sha512-z0yWI+4FDrrweS8Zmt4Ej5HdJmky15+L2e6Wgn3+iK5fWzb6T3fhNFq2+MeTRb064c6Wr4N/wv0DzQTjNzHNGQ==
 
 minecraft-data@^3.0.0, minecraft-data@^3.38.0, minecraft-data@^3.70.0, minecraft-data@^3.76.0, minecraft-data@^3.78.0:
-  version "3.82.0"
-  resolved "https://registry.yarnpkg.com/minecraft-data/-/minecraft-data-3.82.0.tgz#0d5bc328173169b55eb99ab5d0383405a34ff3d5"
-  integrity sha512-FPugxZzXWXjza18AldzMG/s0sClnjsgG4yxZPtBLChxEMndSh0oqpry94y6iW9eKRjL6ZaHzHiZ05tl24QFEAg==
+  version "3.83.1"
+  resolved "https://registry.yarnpkg.com/minecraft-data/-/minecraft-data-3.83.1.tgz#dc6eb87b5357266e0acbe04d30a5716341b69ef3"
+  integrity sha512-5K26za9k5WV1OnfkGexA77lBhfGZeFw3rT3NM7/rbFXRZC65prCx7Tk2BQvC9UfzgxxvmxHfxM5y8G1U+Oxgfg==
 
 minecraft-folder-path@^1.2.0:
   version "1.2.0"
@@ -2118,9 +2118,9 @@ minecraft-folder-path@^1.2.0:
   integrity sha512-qaUSbKWoOsH9brn0JQuBhxNAzTDMwrOXorwuRxdJKKKDYvZhtml+6GVCUrY5HRiEsieBEjCUnhVpDuQiKsiFaw==
 
 minecraft-protocol@^1.51.0:
-  version "1.52.0"
-  resolved "https://registry.yarnpkg.com/minecraft-protocol/-/minecraft-protocol-1.52.0.tgz#546b7a5c44d19b4327947524c4eeae55933ecb81"
-  integrity sha512-dvYhZ442kIIHfrpO1EHA0x9htg1//gq+WZjbjxlftCOG9cj3iyGTtSiXCIPwrRbsA4nPlwLrIEH+kSGHF484xQ==
+  version "1.53.0"
+  resolved "https://registry.yarnpkg.com/minecraft-protocol/-/minecraft-protocol-1.53.0.tgz#6db1c5b34acf67433851a6d122130819ca743659"
+  integrity sha512-V6zr91G5VUke4VLDtmlcBmP+f2tA4LkHiPOR4fYBS4ShUTRqxYw3KgKLhFSIMxGYrVsGHpgWf3Hm4O1hN2Enzw==
   dependencies:
     "@types/node-rsa" "^1.1.4"
     "@types/readable-stream" "^4.0.0"
@@ -2144,9 +2144,9 @@ minecraft-protocol@^1.51.0:
     yggdrasil "^1.4.0"
 
 mineflayer@^4.2.0:
-  version "4.24.0"
-  resolved "https://registry.yarnpkg.com/mineflayer/-/mineflayer-4.24.0.tgz#fc19860edb2d137e7ddf46dd685783c6a413800a"
-  integrity sha512-1SdmJ5s1rjnWYpdVOjt6rNn+v2sxuRZL3GWtQjgBiVMOSUFrBDyJwwRoiZK1XPdCNoYdS/TCYr/FmgSYQNP4RA==
+  version "4.25.0"
+  resolved "https://registry.yarnpkg.com/mineflayer/-/mineflayer-4.25.0.tgz#5f04cd7f94a84b3a9984e09d5c95026ffd7ceca0"
+  integrity sha512-q7cmpZFaSI6sodcMJxc2GkV8IO84HbsUP+xNipGKfGg+FMISKabzdJ838Axb60qRtZrp6ny7LluQE7lesHvvxQ==
   dependencies:
     minecraft-data "^3.76.0"
     minecraft-protocol "^1.51.0"
