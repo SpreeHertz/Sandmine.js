@@ -209,9 +209,9 @@
     fs-extra "^10.0.0"
 
 "@electron/asar@^3.2.1", "@electron/asar@^3.2.5":
-  version "3.2.17"
-  resolved "https://registry.yarnpkg.com/@electron/asar/-/asar-3.2.17.tgz#91d28087aad80d1a1c8cc4e667c6476edf50f949"
-  integrity sha512-OcWImUI686w8LkghQj9R2ynZ2ME693Ek6L1SiaAgqGKzBaTIZw3fHDqN82Rcl+EU1Gm9EgkJ5KLIY/q5DCRbbA==
+  version "3.2.18"
+  resolved "https://registry.yarnpkg.com/@electron/asar/-/asar-3.2.18.tgz#fa607f829209bab8b9e0ce6658d3fe81b2cba517"
+  integrity sha512-2XyvMe3N3Nrs8cV39IKELRHTYUWFKrmqqSY1U+GMlc0jvqjIVnoxhNd2H4JolWQncbJi1DCvb5TNxZuI2fEjWg==
   dependencies:
     commander "^5.0.0"
     glob "^7.1.6"
@@ -2653,9 +2653,9 @@ prismarine-entity@^2.3.0:
     vec3 "^0.1.4"
 
 prismarine-item@^1.10.1, prismarine-item@^1.11.2, prismarine-item@^1.12.2, prismarine-item@^1.15.0:
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/prismarine-item/-/prismarine-item-1.15.0.tgz#6df5ace7837d82cdf8c8d27260c51a76f1fe5812"
-  integrity sha512-DysyiCzaI8S7PpRLFylAZnQo2CppXiBbaUp+8rhK+EzvzmMdS+D1/oETQm9ysB5Jw9eCer6iWGMgzZXxJE5+/w==
+  version "1.16.0"
+  resolved "https://registry.yarnpkg.com/prismarine-item/-/prismarine-item-1.16.0.tgz#75931c1a1648593f3b5af2e33f34d1eba54cd306"
+  integrity sha512-88Tz+/6HquYIsDuseae5G3IbqLeMews2L+ba2gX+p6K6soU9nuFhCfbwN56QuB7d/jZFcWrCYAPE5+UhwWh67w==
   dependencies:
     prismarine-nbt "^2.0.0"
     prismarine-registry "^1.4.0"
