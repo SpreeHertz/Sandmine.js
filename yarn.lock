@@ -209,9 +209,9 @@
     fs-extra "^10.0.0"
 
 "@electron/asar@^3.2.1", "@electron/asar@^3.2.5":
-  version "3.2.18"
-  resolved "https://registry.yarnpkg.com/@electron/asar/-/asar-3.2.18.tgz#fa607f829209bab8b9e0ce6658d3fe81b2cba517"
-  integrity sha512-2XyvMe3N3Nrs8cV39IKELRHTYUWFKrmqqSY1U+GMlc0jvqjIVnoxhNd2H4JolWQncbJi1DCvb5TNxZuI2fEjWg==
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/@electron/asar/-/asar-3.3.1.tgz#cd14e897770d9844673dd7c1dc8944e086e1e0ea"
+  integrity sha512-WtpC/+34p0skWZiarRjLAyqaAX78DofhDxnREy/V5XHfu1XEXbFCSSMcDQ6hNCPJFaPy8/NnUgYuf9uiCkvKPg==
   dependencies:
     commander "^5.0.0"
     glob "^7.1.6"
@@ -318,9 +318,9 @@
     plist "^3.0.4"
 
 "@electron/windows-sign@^1.1.2":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@electron/windows-sign/-/windows-sign-1.2.0.tgz#d4fe32f05b33070e3d9d45cfa899d4342b997f99"
-  integrity sha512-5zfLHfD6kGgsXzuYlKwlWWO8w6dboKy4dhd7rGnR4rQYumuDgPAF2TYjEa8LUi89KdHxtDy2btq02KvbjhK9Iw==
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@electron/windows-sign/-/windows-sign-1.2.1.tgz#8e4674cfdeb7cd58e14b58e624500d9f03f2873d"
+  integrity sha512-YfASnrhJ+ve6Q43ZiDwmpBgYgi2u0bYjeAVi2tDfN7YWAKO8X9EEOuPGtqbJpPLM6TfAHimghICjWe2eaJ8BAg==
   dependencies:
     cross-dirname "^0.1.0"
     debug "^4.3.4"
@@ -450,9 +450,9 @@
     "@types/node" "*"
 
 "@types/node@*":
-  version "22.13.1"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.13.1.tgz#a2a3fefbdeb7ba6b89f40371842162fac0934f33"
-  integrity sha512-jK8uzQlrvXqEU91UxiK5J7pKHyzgnI1Qnl0QDHIgVGuolJhRb9EEl28Cj9b3rGR8B2lhFCtvIm5os8lFnO/1Ew==
+  version "22.13.4"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.13.4.tgz#3fe454d77cd4a2d73c214008b3e331bfaaf5038a"
+  integrity sha512-ywP2X0DYtX3y08eFVx5fNIw7/uIv8hYUKgXoK8oayJlLnKcRfEYCxWMVE1XagUdVtCJlZT1AU4LXEABW+L1Peg==
   dependencies:
     undici-types "~6.20.0"
 
@@ -2108,9 +2108,9 @@ mimic-response@^3.1.0:
   integrity sha512-z0yWI+4FDrrweS8Zmt4Ej5HdJmky15+L2e6Wgn3+iK5fWzb6T3fhNFq2+MeTRb064c6Wr4N/wv0DzQTjNzHNGQ==
 
 minecraft-data@^3.0.0, minecraft-data@^3.38.0, minecraft-data@^3.70.0, minecraft-data@^3.76.0, minecraft-data@^3.78.0:
-  version "3.83.1"
-  resolved "https://registry.yarnpkg.com/minecraft-data/-/minecraft-data-3.83.1.tgz#dc6eb87b5357266e0acbe04d30a5716341b69ef3"
-  integrity sha512-5K26za9k5WV1OnfkGexA77lBhfGZeFw3rT3NM7/rbFXRZC65prCx7Tk2BQvC9UfzgxxvmxHfxM5y8G1U+Oxgfg==
+  version "3.84.1"
+  resolved "https://registry.yarnpkg.com/minecraft-data/-/minecraft-data-3.84.1.tgz#b0f88f2d8df0920ca71c2931197519755be59fce"
+  integrity sha512-0yPsnu4rYjbokPgm6aMqhIm70fhsUUYFMEbbqrLG7QGLQDUy3lauuVlh3ctRxtPP6vX/ywLo1p5Uczz3Snnocg==
 
 minecraft-folder-path@^1.2.0:
   version "1.2.0"
