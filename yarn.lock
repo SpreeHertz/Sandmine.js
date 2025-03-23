@@ -450,9 +450,9 @@
     "@types/node" "*"
 
 "@types/node@*":
-  version "22.13.10"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.13.10.tgz#df9ea358c5ed991266becc3109dc2dc9125d77e4"
-  integrity sha512-I6LPUvlRH+O6VRUqYOcMudhaIdUVWfsjnZavnsraHvpBwaEyMN29ry+0UVJhImYL16xsscu0aske3yA+uPOWfw==
+  version "22.13.11"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.13.11.tgz#f0ed6b302dcf0f4229d44ea707e77484ad46d234"
+  integrity sha512-iEUCUJoU0i3VnrCmgoWCXttklWcvoCIx4jzcP22fioIVSdTmjgoEvmAO/QPw6TcS9k5FrNgn4w7q5lGOd1CT5g==
   dependencies:
     undici-types "~6.20.0"
 
@@ -2118,9 +2118,9 @@ minecraft-folder-path@^1.2.0:
   integrity sha512-qaUSbKWoOsH9brn0JQuBhxNAzTDMwrOXorwuRxdJKKKDYvZhtml+6GVCUrY5HRiEsieBEjCUnhVpDuQiKsiFaw==
 
 minecraft-protocol@^1.51.0:
-  version "1.54.0"
-  resolved "https://registry.yarnpkg.com/minecraft-protocol/-/minecraft-protocol-1.54.0.tgz#efd518dba2381566ea5e53dc296b4fc7392dab59"
-  integrity sha512-v8pWRVhD9kyd/X52j/XESxrNxkmz1OHzSXAJkPLOQUUTENEqisJhu1c3abS7ZI+MAXHAEA/vaCb/Eh6XFxw0lA==
+  version "1.55.0"
+  resolved "https://registry.yarnpkg.com/minecraft-protocol/-/minecraft-protocol-1.55.0.tgz#bc648b4757ea37062d654d051ddf58ddf9514e83"
+  integrity sha512-jlzmRxoNuj2bFk1fxR+dTg6Z4RpOR1/FLrk1zhft0jCwAIEhgV2OPi6Ceg2KFKADneEX0suhCty855A/qFLQWA==
   dependencies:
     "@types/node-rsa" "^1.1.4"
     "@types/readable-stream" "^4.0.0"
@@ -2144,9 +2144,9 @@ minecraft-protocol@^1.51.0:
     yggdrasil "^1.4.0"
 
 mineflayer@^4.2.0:
-  version "4.26.0"
-  resolved "https://registry.yarnpkg.com/mineflayer/-/mineflayer-4.26.0.tgz#6aaeb52f235ca427bc2b60b95270af4b682028b8"
-  integrity sha512-1mCuyqIJUieq/ul7s7UUvcUvycYEMN7GFL5iCUB8DraDsJhj1waP74WkaMUMOKmNukv72T8+6S9O0Jaxer1QHw==
+  version "4.27.0"
+  resolved "https://registry.yarnpkg.com/mineflayer/-/mineflayer-4.27.0.tgz#c3668858b0d94ceba1a544304546e03fd9803c8e"
+  integrity sha512-3bxph4jfbkBh5HpeouorxzrfSLNV+i+1gugNJ2jf52HW+rt+tW7eiiFPxrJEsOVkPT/3O/dEIW7j93LRlojMkQ==
   dependencies:
     minecraft-data "^3.76.0"
     minecraft-protocol "^1.51.0"
