@@ -450,9 +450,9 @@
     "@types/node" "*"
 
 "@types/node@*":
-  version "22.13.11"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.13.11.tgz#f0ed6b302dcf0f4229d44ea707e77484ad46d234"
-  integrity sha512-iEUCUJoU0i3VnrCmgoWCXttklWcvoCIx4jzcP22fioIVSdTmjgoEvmAO/QPw6TcS9k5FrNgn4w7q5lGOd1CT5g==
+  version "22.13.14"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.13.14.tgz#70d84ec91013dcd2ba2de35532a5a14c2b4cc912"
+  integrity sha512-Zs/Ollc1SJ8nKUAgc7ivOEdIBM8JAKgrqqUYi2J997JuKO7/tpQC+WCetQ1sypiKCQWHdvdg9wBNpUPEWZae7w==
   dependencies:
     undici-types "~6.20.0"
 
@@ -2108,9 +2108,9 @@ mimic-response@^3.1.0:
   integrity sha512-z0yWI+4FDrrweS8Zmt4Ej5HdJmky15+L2e6Wgn3+iK5fWzb6T3fhNFq2+MeTRb064c6Wr4N/wv0DzQTjNzHNGQ==
 
 minecraft-data@^3.0.0, minecraft-data@^3.38.0, minecraft-data@^3.70.0, minecraft-data@^3.76.0, minecraft-data@^3.78.0:
-  version "3.84.1"
-  resolved "https://registry.yarnpkg.com/minecraft-data/-/minecraft-data-3.84.1.tgz#b0f88f2d8df0920ca71c2931197519755be59fce"
-  integrity sha512-0yPsnu4rYjbokPgm6aMqhIm70fhsUUYFMEbbqrLG7QGLQDUy3lauuVlh3ctRxtPP6vX/ywLo1p5Uczz3Snnocg==
+  version "3.85.0"
+  resolved "https://registry.yarnpkg.com/minecraft-data/-/minecraft-data-3.85.0.tgz#a160eb3d9e72d00b3e7ecc99c7a624a09716db4b"
+  integrity sha512-7RhCjMuvO6ZwhTB7eNymCj4TAZY1Xqkg4XYv6ieLeWjmW1Lc1PGCG6BhR4/xN3zYRVqMNKiBOtAQoGqkVTKECg==
 
 minecraft-folder-path@^1.2.0:
   version "1.2.0"
