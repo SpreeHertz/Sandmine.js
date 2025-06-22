@@ -9,16 +9,17 @@ Contributions are always welcome! You can open a pull request by [clicking here]
 # Table of contents
 
 * [Usage/Features](#usagefeatures)
-* [Credits](#credits) 
-* [License](#license) 
-* [Changelogs](#changelogs)
 * **[Docs](#docs)**
 * [Step 1: Installation](#step-1-installation)
 * [Step 2: Opening LAN World](#step-2-opening-lan-world)
 * [Step 3: Configuration](#step-3-configuration)
 * [Step 4: Start the bot](#step-4-start-the-bot)
 * [Errors and how to fix them](#errors-and-how-to-fix-them)
-
+  
+   **Other**
+* [Credits](#credits) 
+* [License](#license) 
+* [Changelogs](#changelogs)
 ## Usage/Features
 
 * Auto-eats if you give it appropriate food.
