@@ -46,7 +46,7 @@
   },
   "dependencies": {
     "chalk": "4.1.2",
-    "dotenv": "^16.0.0",
+    "dotenv": "^17.0.0",
     "electron-squirrel-startup": "^1.0.0",
     "fs": "^0.0.1-security",
     "mineflayer": "^4.2.0"
