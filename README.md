@@ -1,4 +1,5 @@
-
+> [!CAUTION]
+> Most code is deprecated as of November 2025.
 
 
 # Sandmine.js
