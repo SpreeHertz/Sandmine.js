@@ -1,10 +1,15 @@
-window.addEventListener('DOMContentLoaded', () => {
-    const replaceText = (selector, text) => {
-      const element = document.getElementById(selector)
-      if (element) element.innerText = text
+const { contextBridge, ipcRenderer } = require('electron');
+
+
+contextBridge.exposeInMainWorld('electronAPI', {
+    submitForm: (formData) => {
+        ipcRenderer.send('submit-form', formData);
+    },
+    onFormResponse: (callback) => {
+        ipcRenderer.on('form-response', (event, data) => {
+            callback(data);
+        });
     }
-  
-    for (const dependency of ['chrome', 'node', 'electron']) {
-      replaceText(`${dependency}-version`, process.versions[dependency])
-    }
-  })
+});
+
+console.log('Preload script loaded');

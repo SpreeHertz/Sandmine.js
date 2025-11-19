@@ -1,47 +1,44 @@
-// Modules to control application life and create native browser window
-const { app, BrowserWindow } = require('electron')
-const path = require('path')
-const fs = require('fs')
-const reload = require('electron-reload');
+const { app, BrowserWindow, ipcMain } = require('electron');
+const path = require('path');
 
-const createWindow = () => {
-  // Create the browser window.
-  const mainWindow = new BrowserWindow({
-    width: 800,
-    height: 600,
-    webPreferences: {
-      preload: path.join(__dirname, 'preload.js')
-    }
-  })
-  // electron-reload
-  reload(path.join(__dirname, 'renderer'));
-  // and load the index.html of the app.
-  mainWindow.loadFile('./src/index.html')
-  // import css
-  mainWindow.webContents.on('did-finish-load', () => {
-    mainWindow.webContents.insertCSS(fs.readFileSync(path.join(__dirname, './dist/output.css'), 'utf8'))
-  })
+function createWindow() {
+    const win = new BrowserWindow({
+        width: 800,
+        height: 600,
+        webPreferences: {
+            preload: path.join(__dirname, 'preload.js'),
+            contextIsolation: true,  // Keep renderer isolated
+            nodeIntegration: false   // Don't allow Node.js in renderer
+        }
+    });
 
-  // Open the DevTools.
-  // mainWindow.webContents.openDevTools()
+    win.loadFile('./src/index.html');
+    // win.webContents.openDevTools(); // Open DevTools to see console
 }
 
-// This method will be called when Electron has finished
-// initialization and is ready to create browser windows.
-// Some APIs can only be used after this event occurs.
-app.whenReady().then(() => {
-  createWindow()
+// This is your "backend handler" - like an API endpoint
+ipcMain.on('submit-form', (event, formData) => {
+    console.log('Main process received form data:', formData);
+    
+    // Do your backend processing here
+    // Could be: save to file, database, make API call, etc.
+    const firstname = formData.firstname;
+    const lastname = formData.lastname;
+    
+    // Simulate some processing
+    const result = {
+        success: true,
+        message: `Hello ${firstname} ${lastname}! Form processed at ${new Date().toLocaleTimeString()}`
+    };
+    
+    // Send response back to the renderer that sent this message
+    event.reply('form-response', result);
+});
 
-  app.on('activate', () => {
-    // On macOS it's common to re-create a window in the app when the
-    // dock icon is clicked and there are no other windows open.
-    if (BrowserWindow.getAllWindows().length === 0) createWindow()
-  })
-})
+app.whenReady().then(createWindow);
 
-// Quit when all windows are closed, except on macOS. There, it's common
-// for applications and their menu bar to stay active until the user quits
-// explicitly with Cmd + Q.
 app.on('window-all-closed', () => {
-  if (process.platform !== 'darwin') app.quit()
-})
+    if (process.platform !== 'darwin') {
+        app.quit();
+    }
+});

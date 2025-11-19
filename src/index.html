@@ -1,60 +1,52 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/dist/output.css" rel="stylesheet">
-   <!-- inter -->
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-
+    <meta charset="UTF-8">
+    <title>Electron Form Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        input {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 16px;
+        }
+        button {
+            background: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+        #response {
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
 </head>
-<body class="bg-gray-500">
-  <div class="text-center justify-center">
-    <h1 class="text-3xl font-extrabold text-center bg-gradient-to-r 
-    bg-clip-text text-transparent from-yellow-200
-    via-yellow-300 to-yellow-500 
-    animate-text font-inter pt-40">Welcome.</h1>
-  </div>
-  <br>
-<!-- Server address -->
-  <form>
-    <label for="search" class="mb-2 text-sm font-medium sr-only">Server address</label>
-    <div class="relative">      
-        <div class="items-center justify-center flex">
-          <input type="text" id="serverAddress" class="self-center block w-96 p-4 text-sm text-white border border-gray-300 rounded-lg bg-white font-inter focus:ring-rose-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-rose-500 dark:focus:border-rose-500" placeholder="Server address (eg: localhost)">
-        </div>
-    </div>
-  </form>
-<br>
-  <!-- Server port-->
-  <form>
-    <label for="search" class="mb-2text-sm font-medium sr-only">Server port (eg: 8080)</label>
-    <div class="relative">      
-        <div class="items-center justify-center flex">
-          <input type="text" id="serverPort" class="self-center block w-96 p-4 text-sm text-white border border-gray-300 rounded-lg bg-white font-inter focus:ring-rose-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-rose-500 dark:focus:border-rose-500" placeholder="Server port (eg: 8080)">
-        </div>
-    </div>
-<br>
-  <!-- Bot username -->
-  <form>
-    <label for="search" class="mb-2 text-sm font-medium sr-only">Bot username (eg: Sugma)</label>
-    <div class="relative">      
-        <div class="items-center justify-center flex">
-          <input type="text" id="botUsername" class="self-center block w-96 p-4 text-sm text-white border border-gray-300 rounded-lg bg-white font-inter focus:ring-rose-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-rose-500 dark:focus:border-rose-500" placeholder="Bot username (eg: Sugma)">
-        </div>
-    </div>
-  </form>
-<br>
-  <!-- Create bot button -->
-  <div class="flex justify-center">
-    <button class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-teal-300 to-lime-300 group-hover:from-teal-300 group-hover:to-lime-300 dark:text-white dark:hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-lime-800">
-      <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-gray-500 dark:bg-gray-500 rounded-md group-hover:bg-opacity-0">
-          Create
-      </span>
-    </button>
-  </div>
- 
+<body>
+    <h1>Sandmine.js</h1>
+    
+    <form id="userForm">
+        <input type="text" id="botusername" placeholder="Bot username" required>
+        <input type="text" id="port" placeholder="Port">
+        <input type="text" id="ip" placeholder="Server address">
+        <button type="submit">Submit Form</button>
+    </form>
+    
+    <div id="response"></div>
+
+    <script src="../renderer.js"></script>
 </body>
 </html>
