@@ -4,7 +4,6 @@
 
 Contributions are always welcome! You can open a pull request by [clicking here](https://github.com/spreehertz/sandmine.js/pulls). <br>
 
-More features are coming very soon 😉!
 
 # Table of contents
 
@@ -39,10 +38,6 @@ This project is licensed under the **GPL General Public License v3.0.** See the 
 ## Changelogs
 
 View [Changelog.md](https://github.com/SpreeHertz/Sandmine.js/blob/master/Changelog.md).
-
-## To-do list
-
-1. Improve docs
 
 
 # Docs
