@@ -1,9 +1,6 @@
 # Sandmine.js
 
-**Sandmine.js** is a simple minecraft bot, with several cool functions, all made with JavaScript. 
-
-Contributions are always welcome! You can open a pull request by [clicking here](https://github.com/spreehertz/sandmine.js/pulls). <br>
-
+**Sandmine.js** is a minecraft bot with a few simple functions, made with JavaScript. Think of it like a companion for your Minecraft world.
 
 # Table of contents
 
@@ -23,17 +20,8 @@ Contributions are always welcome! You can open a pull request by [clicking here]
 
 * Kills a mob when in a particular radius.
 * Looks at nearest player.
-* Pathfinds the player and gets as close as possible if a player says "`follow me`" and stops if you say "`stop`".
-* PvP you if you say "`fight me`" and stops if you say "`stop`".
-* Bow fights you.
-* View what your bot is doing in your browser
-
-## Credits
-This bot is made possible with [mineflayer](https://github.com/prismarinejs/mineflayer) and its other packages.
-
-
-## License
-This project is licensed under the **GPL General Public License v3.0.** See the LICENSE file for details.
+* Pathfinds the player and gets as close as possible if a player says "`follow me`" and stops with "`stop`".
+* Indulges in PvP with the player if one types  "`fight me`" and stops with "`stop`".
 
 ## Changelogs
 
@@ -42,8 +30,6 @@ View [Changelog.md](https://github.com/SpreeHertz/Sandmine.js/blob/master/Change
 
 # Docs
 You can make your own version of Sandmine.js. Please read the docs fully so that you understand what's happening, and to reduce the amount of errors you may run into.
-
-Also, it would be appreciated if you credit me.
 
 ## Step 1: Installation
 Install [VSCode](https://code.visualstudio.com/download) (or any other IDE you like), [Git](https://git-scm.com/download/), and [Node.js](https://nodejs.org).
