@@ -21,8 +21,7 @@ More features are coming very soon 😉!
 
 ## Usage/Features
 
-* Auto-eats if you give it appropriate food.
-* Consumes stuff.
+
 * Kills a mob when in a particular radius.
 * Looks at nearest player.
 * Pathfinds the player and gets as close as possible if a player says "`follow me`" and stops if you say "`stop`".

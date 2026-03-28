@@ -4,9 +4,9 @@ const bot = require('../../index');
 const autoeat = require('mineflayer-auto-eat');
 const chalk = require('chalk');
 
-bot.loadPlugin(autoeat);
-
-bot.once('spawn', () => {
+try {
+	bot.loadPlugin(autoeat);
+	bot.once('spawn', () => {
 	bot.autoEat.options = {
 		priority: 'foodPoints',
 		startAt: 14,
@@ -28,3 +28,8 @@ bot.on('health', () => {
 	if (bot.food === 20) bot.autoEat.disable();
 	else bot.autoEat.enable();
 });
+
+} catch (e) {
+	console.log(chalk.red('Failed to load auto-eat plugin.'));
+}
+
