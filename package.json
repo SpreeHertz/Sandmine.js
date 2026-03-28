@@ -46,7 +46,7 @@
   },
   "dependencies": {
     "canvas": "^3.2.2",
-    "chalk": "4.0.0",
+    "chalk": "4.1.2",
     "dotenv": "^17.3.1",
     "minecraft-data": "^3.105.0",
     "mineflayer": "^4.35.0",
