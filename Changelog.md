@@ -1,5 +1,12 @@
 # Changelogs | Sandmine.js
 
+### March 28th 2026 (v2.0.0)
+1. Remove broken dependencies
+2. Removed mineflayer-auto-eat, minecrafthawkeye due to bugs in those packages
+
+The bot is now functional as of March 2026 (tested on 1.21.11).
+
+
 ### November 20th 2021 (v1.0.8)
 
 1. Added more instructions on code.
